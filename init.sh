@@ -17,5 +17,6 @@ brew cask install whatsapp
 brew cask install WordService
 brew cask install coteditor
 brew cask install qbittorrent
+brew cask install visual-studio-code
 brew install mc
 echo 'export VISUAL=vim; export EDITOR="$VISUAL"' >> ~/.bashrc
