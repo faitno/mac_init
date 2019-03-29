@@ -14,6 +14,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 brew update
 brew tap caskroom/cask
+brew cask install firefox
 brew cask install telegram
 brew cask install whatsapp
 brew cask install WordService
