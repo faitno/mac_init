@@ -12,6 +12,8 @@ defaults write com.apple.Dock autohide-delay -float 0 && killall Dock
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null ; brew install caskroom/cask/brew-cask 2> /dev/null
 
+brew update
+brew tap caskroom/cask
 brew cask install telegram
 brew cask install whatsapp
 brew cask install WordService
@@ -19,4 +21,5 @@ brew cask install coteditor
 brew cask install qbittorrent
 brew cask install visual-studio-code
 brew install mc
+brew cleanup 
 echo 'export VISUAL=vim; export EDITOR="$VISUAL"' >> ~/.bashrc
