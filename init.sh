@@ -16,3 +16,4 @@ brew cask install telegram
 brew cask install whatsapp
 brew cask install WordService
 brew install mc
+echo 'export VISUAL=vim; export EDITOR="$VISUAL"' >> ~/.bashrc
