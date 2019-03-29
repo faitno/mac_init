@@ -15,5 +15,6 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew cask install telegram
 brew cask install whatsapp
 brew cask install WordService
+brew cask install coteditor
 brew install mc
 echo 'export VISUAL=vim; export EDITOR="$VISUAL"' >> ~/.bashrc
