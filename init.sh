@@ -16,5 +16,6 @@ brew cask install telegram
 brew cask install whatsapp
 brew cask install WordService
 brew cask install coteditor
+brew cask install qbittorrent
 brew install mc
 echo 'export VISUAL=vim; export EDITOR="$VISUAL"' >> ~/.bashrc
