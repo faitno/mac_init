@@ -23,6 +23,7 @@ brew cask install coteditor
 brew cask install qbittorrent
 brew cask install visual-studio-code
 brew cask install karabiner-elements
+brew cask install teamviewer
 brew install mc
 brew cleanup 
 echo 'export VISUAL=vim; export EDITOR="$VISUAL"' >> ~/.bashrc
