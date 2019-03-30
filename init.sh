@@ -26,3 +26,6 @@ brew cask install karabiner-elements
 brew install mc
 brew cleanup 
 echo 'export VISUAL=vim; export EDITOR="$VISUAL"' >> ~/.bashrc
+
+
+https://github.com/rugarciap/Turbo-Boost-Switcher/issues/4#issuecomment-398014403
