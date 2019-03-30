@@ -27,7 +27,7 @@ brew cask install teamviewer
 brew cask install skype
 brew install mc
 brew cleanup 
-echo 'export VISUAL=vim; export EDITOR="$VISUAL"' >> ~/.bashrc
+echo 'export VISUAL=nano; export EDITOR="$VISUAL"' >> ~/.bashrc
 
 
 https://s3.amazonaws.com/turbo-boost-switcher/Turbo+Boost+Switcher_2.8.0.zip
