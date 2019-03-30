@@ -30,4 +30,5 @@ brew cleanup
 echo 'export VISUAL=vim; export EDITOR="$VISUAL"' >> ~/.bashrc
 
 
+https://s3.amazonaws.com/turbo-boost-switcher/Turbo+Boost+Switcher_2.8.0.zip
 https://github.com/rugarciap/Turbo-Boost-Switcher/issues/4#issuecomment-398014403
