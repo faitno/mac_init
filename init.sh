@@ -26,6 +26,7 @@ brew cask install karabiner-elements
 brew cask install teamviewer
 brew cask install skype
 brew cask install sequel-pro
+brew cask install cyberduck
 brew install mc
 brew cleanup 
 echo 'export VISUAL=nano; export EDITOR="$VISUAL"' >> ~/.bashrc
