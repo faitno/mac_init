@@ -35,6 +35,7 @@ echo 'export VISUAL=nano; export EDITOR="$VISUAL"' >> ~/.bashrc
 
 https://s3.amazonaws.com/turbo-boost-switcher/Turbo+Boost+Switcher_2.8.0.zip
 https://github.com/rugarciap/Turbo-Boost-Switcher/issues/4#issuecomment-398014403
+https://github.com/Wouter1/EMU-driver/releases
 
 brew install nginx
 brew services start nginx
