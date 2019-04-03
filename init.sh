@@ -47,4 +47,5 @@ brew services start percona-server
 mysql_secure_installation
 brew services start nginx
 brew services start php@7.1
+brew services list
 https://github.com/downloads/specialunderwear/Hosts.prefpane/Hosts-1.3.pkg
