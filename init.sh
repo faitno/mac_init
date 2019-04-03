@@ -33,13 +33,16 @@ brew install mc
 brew cleanup 
 echo 'export VISUAL=nano; export EDITOR="$VISUAL"' >> ~/.bashrc
 
-
+#disable turbo-boost for longest battery work and noise fan
 https://s3.amazonaws.com/turbo-boost-switcher/Turbo+Boost+Switcher_2.8.0.zip
 https://github.com/rugarciap/Turbo-Boost-Switcher/issues/4#issuecomment-398014403
+#driver for favorite audio-card
 https://github.com/Wouter1/EMU-driver/releases
 
+#web-server
 brew install nginx
 brew install php@7.1
+brew install percona-server
 brew services start nginx
 brew services start php@7.1
 https://github.com/downloads/specialunderwear/Hosts.prefpane/Hosts-1.3.pkg
