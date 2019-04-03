@@ -39,5 +39,6 @@ https://github.com/rugarciap/Turbo-Boost-Switcher/issues/4#issuecomment-39801440
 https://github.com/Wouter1/EMU-driver/releases
 
 brew install nginx
+brew install php@7.1
 brew services start nginx
 https://github.com/downloads/specialunderwear/Hosts.prefpane/Hosts-1.3.pkg
