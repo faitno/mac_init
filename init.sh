@@ -44,6 +44,9 @@ https://github.com/Wouter1/EMU-driver/releases
 brew install nginx
 brew install php@7.1
 brew install percona-server
+mysql_secure_installation
+mysql -u root -p
+ALTER USER 'yourusername'@'localhost' IDENTIFIED WITH mysql_native_password BY 'youpassword';
 brew services start percona-server
 mysql_secure_installation
 brew services start nginx
