@@ -22,6 +22,7 @@ brew cask install WordService
 brew cask install coteditor
 brew cask install qbittorrent
 brew cask install visual-studio-code
+#https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
 brew cask install karabiner-elements
 brew cask install teamviewer
 brew cask install skype
