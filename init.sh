@@ -32,6 +32,7 @@ brew cask install cyberduck
 #brew cask install cyberduck@6.6.1 - don't respond @buy me!
 brew install wine
 brew install mc
+brew install sshpass
 brew cleanup 
 echo 'export VISUAL=nano; export EDITOR="$VISUAL"' >> ~/.bashrc
 
