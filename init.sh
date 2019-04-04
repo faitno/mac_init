@@ -47,6 +47,7 @@ brew install php@7.1
 #brew install percona-server
 brew install mysql@5.7
 brew link mysql@5.7 --force
+brew services start mysql@5.7
 mysql_secure_installation
 #mysql -u root -p
 #ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'youpassword';
