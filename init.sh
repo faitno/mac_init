@@ -44,10 +44,11 @@ https://github.com/Wouter1/EMU-driver/releases
 #web-server
 brew install nginx
 brew install php@7.1
-brew install percona-server
+#brew install percona-server
+brew install mysql@5.7
 mysql_secure_installation
-mysql -u root -p
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'youpassword';
+#mysql -u root -p
+#ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'youpassword';
 #mysql -uUSER -p -e 'SHOW VARIABLES WHERE Variable_Name LIKE "%dir"' show place databases
 brew services start percona-server
 mysql_secure_installation
