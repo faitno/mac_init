@@ -65,3 +65,4 @@ https://github.com/downloads/specialunderwear/Hosts.prefpane/Hosts-1.3.pkg
 brew install python
 python get-pip.py
 sudo python get-pip.py
+pip install ansible==2.1.1
