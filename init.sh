@@ -69,3 +69,4 @@ sudo python get-pip.py
 #sudo pip install ansible==2.1.1
 sudo pip install ansible
 sudo pip install passlib
+sudo pip install mysqlclient
