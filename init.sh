@@ -61,3 +61,7 @@ brew services start php@7.1
 brew link php@7.1 --force
 brew services list
 https://github.com/downloads/specialunderwear/Hosts.prefpane/Hosts-1.3.pkg
+
+brew install python
+python get-pip.py
+sudo python get-pip.py
