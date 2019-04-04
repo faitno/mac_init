@@ -27,6 +27,7 @@ brew cask install karabiner-elements
 brew cask install teamviewer
 brew cask install skype
 brew cask install sequel-pro
+brew cask install hex-fiend
 brew cask install cyberduck
 #brew cask install cyberduck@6.6.1 - don't respond @buy me!
 brew install wine
