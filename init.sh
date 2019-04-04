@@ -47,7 +47,7 @@ brew install php@7.1
 brew install percona-server
 mysql_secure_installation
 mysql -u root -p
-ALTER USER 'yourusername'@'localhost' IDENTIFIED WITH mysql_native_password BY 'youpassword';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'youpassword';
 #mysql -uUSER -p -e 'SHOW VARIABLES WHERE Variable_Name LIKE "%dir"' show place databases
 brew services start percona-server
 mysql_secure_installation
