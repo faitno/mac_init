@@ -1,3 +1,4 @@
+#system settings
 sudo pmset hibernatemode 0
 defaults write -g InitialKeyRepeat -int 15
 defaults write -g KeyRepeat -int 2
@@ -20,6 +21,7 @@ user$ /usr/local/opt/bash/bin/bash
 user$ sudo bash -c 'echo /usr/local/opt/bash/bin/bash >> /etc/shells'
 user$ chsh -s /usr/local/opt/bash/bin/bash
 user$ sudo chsh -s /usr/local/opt/bash/bin/bash
+brew install mc
 
 brew tap caskroom/cask
 brew cask install google-chrome
@@ -39,12 +41,11 @@ brew cask install hex-fiend
 brew cask install cyberduck
 #brew cask install cyberduck@6.6.1 - don't respond @buy me!
 brew install wine
-brew install mc
 brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
 brew cleanup 
 echo 'export VISUAL=nano; export EDITOR="$VISUAL"' >> ~/.bashrc
 
-#disable turbo-boost for longest battery work and noise fan
+#disable turbo-boost for longest battery work and low noise fan
 https://s3.amazonaws.com/turbo-boost-switcher/Turbo+Boost+Switcher_2.8.0.zip
 https://github.com/rugarciap/Turbo-Boost-Switcher/issues/4#issuecomment-398014403
 #driver for favorite audio-card
@@ -71,6 +72,7 @@ brew link php@7.1 --force
 brew services list
 https://github.com/downloads/specialunderwear/Hosts.prefpane/Hosts-1.3.pkg
 
+#ansible
 brew install python
 curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
 sudo python get-pip.py
