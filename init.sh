@@ -13,6 +13,14 @@ defaults write com.apple.Dock autohide-delay -float 0 && killall Dock
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null ; brew install caskroom/cask/brew-cask 2> /dev/null
 
 brew update
+brew upgrade
+
+user$ brew install bash
+user$ /usr/local/opt/bash/bin/bash
+user$ sudo bash -c 'echo /usr/local/opt/bash/bin/bash >> /etc/shells'
+user$ chsh -s /usr/local/opt/bash/bin/bash
+user$ sudo chsh -s /usr/local/opt/bash/bin/bash
+
 brew tap caskroom/cask
 brew cask install google-chrome
 brew cask install firefox
