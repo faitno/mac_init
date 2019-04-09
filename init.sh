@@ -81,3 +81,6 @@ sudo python get-pip.py
 sudo pip install ansible
 sudo pip install passlib
 sudo pip install mysqlclient
+
+#gulp
+npm install --global gulp
