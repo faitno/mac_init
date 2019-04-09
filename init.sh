@@ -83,4 +83,4 @@ sudo pip install passlib
 sudo pip install mysqlclient
 
 #gulp
-npm install --global gulp
+npm install --global gulp-cli
