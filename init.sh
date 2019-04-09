@@ -84,3 +84,4 @@ sudo pip install mysqlclient
 
 #gulp
 npm install --global gulp-cli
+#npm install --global coffee-script
