@@ -51,7 +51,7 @@ echo 'export VISUAL=nano; export EDITOR="$VISUAL"' >> ~/.bashrc
 
 #xcode
 https://developer.apple.com/download/more/
-#sierra - xcode ver: 9.2.1
+#macOS 10.12.6 sierra - xcode ver: 9.2.1
 
 #Mac App Store command line interface
 brew install mas
