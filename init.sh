@@ -55,7 +55,7 @@ https://developer.apple.com/download/more/
 
 #Mac App Store command line interface
 brew install mas
-
+https://itunes.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12
 
 #disable turbo-boost for longest battery work and low noise fan
 https://s3.amazonaws.com/turbo-boost-switcher/Turbo+Boost+Switcher_2.8.0.zip
