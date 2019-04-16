@@ -49,6 +49,14 @@ brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Librar
 brew cleanup 
 echo 'export VISUAL=nano; export EDITOR="$VISUAL"' >> ~/.bashrc
 
+#xcode
+https://developer.apple.com/download/more/
+#sierra - xcode ver: 9.2.1
+
+#Mac App Store command line interface
+brew install mas
+
+
 #disable turbo-boost for longest battery work and low noise fan
 https://s3.amazonaws.com/turbo-boost-switcher/Turbo+Boost+Switcher_2.8.0.zip
 https://github.com/rugarciap/Turbo-Boost-Switcher/issues/4#issuecomment-398014403
