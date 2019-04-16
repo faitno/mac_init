@@ -54,6 +54,7 @@ https://s3.amazonaws.com/turbo-boost-switcher/Turbo+Boost+Switcher_2.8.0.zip
 https://github.com/rugarciap/Turbo-Boost-Switcher/issues/4#issuecomment-398014403
 #driver for favorite audio-card
 https://github.com/Wouter1/EMU-driver/releases
+https://www.readpixel.com/downloads/files/WakeOnLan1.0.zip
 
 #web-server
 brew install nginx
@@ -75,7 +76,6 @@ sudo brew services start php@7.1
 brew link php@7.1 --force
 brew services list
 https://github.com/downloads/specialunderwear/Hosts.prefpane/Hosts-1.3.pkg
-https://www.readpixel.com/downloads/files/WakeOnLan1.0.zip
 
 #ansible
 brew install python
