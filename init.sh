@@ -75,6 +75,7 @@ sudo brew services start php@7.1
 brew link php@7.1 --force
 brew services list
 https://github.com/downloads/specialunderwear/Hosts.prefpane/Hosts-1.3.pkg
+https://www.readpixel.com/downloads/files/WakeOnLan1.0.zip
 
 #ansible
 brew install python
