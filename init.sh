@@ -39,9 +39,10 @@ brew cask install skype
 brew cask install sequel-pro
 brew cask install hex-fiend
 brew cask install cyberduck
+#brew cask install cyberduck@6.6.1 - don't respond @buy me!
 brew cask install gimp
 brew cask install iterm2
-#brew cask install cyberduck@6.6.1 - don't respond @buy me!
+brew cask install virtualbox;
 brew install wine
 brew install node
 brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
