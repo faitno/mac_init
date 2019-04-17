@@ -44,6 +44,7 @@ brew cask install gimp
 brew cask install iterm2
 brew cask install virtualbox;
 brew cask install thunderbird
+https://addons.thunderbird.net/en-US/thunderbird/addon/thunderhtmledit/
 brew install wine
 brew install node
 brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
