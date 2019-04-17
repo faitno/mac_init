@@ -43,6 +43,7 @@ brew cask install cyberduck
 brew cask install gimp
 brew cask install iterm2
 brew cask install virtualbox;
+brew cask install thunderbird
 brew install wine
 brew install node
 brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
