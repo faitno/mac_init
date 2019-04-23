@@ -48,6 +48,7 @@ https://addons.thunderbird.net/en-US/thunderbird/addon/thunderhtmledit/
 brew cask install plistedit-pro
 brew install wine
 brew install node
+brew install wget
 brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
 brew cleanup 
 echo 'export VISUAL=nano; export EDITOR="$VISUAL"' >> ~/.bashrc
