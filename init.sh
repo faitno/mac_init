@@ -78,6 +78,7 @@ brew install php@7.1
 brew install imagemagick
 brew install pkg-config
 pecl install imagick
+ln -s /usr/local/Cellar/php@7.1/7.1.27/pecl /usr/local/lib/php/pecl
 
 #brew install percona-server
 brew install mysql@5.7
