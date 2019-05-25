@@ -108,6 +108,7 @@ sudo python get-pip.py
 sudo pip install ansible
 sudo pip install passlib
 sudo pip install mysqlclient
+sudo pip install google_images_download
 
 #gulp
 npm install --global gulp-cli
