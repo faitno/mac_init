@@ -72,6 +72,13 @@ https://www.readpixel.com/downloads/files/WakeOnLan1.0.zip
 #web-server
 brew install nginx
 brew install php@7.1
+
+#https://github.com/phpredis/phpredis/issues/1341#issuecomment-402798590
+#https://github.com/Homebrew/homebrew-core/issues/26408#issuecomment-381417328
+brew install imagemagick
+brew install pkg-config
+pecl install imagick
+
 #brew install percona-server
 brew install mysql@5.7
 brew link mysql@5.7 --force
