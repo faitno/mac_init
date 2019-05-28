@@ -114,3 +114,4 @@ sudo pip install google_images_download
 npm install --global gulp-cli
 #npm install --global coffee-script
 brew install bower
+#Yarn and Parcel need
