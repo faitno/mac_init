@@ -75,10 +75,11 @@ brew install php@7.1
 
 #https://github.com/phpredis/phpredis/issues/1341#issuecomment-402798590
 #https://github.com/Homebrew/homebrew-core/issues/26408#issuecomment-381417328
-brew install imagemagick
-brew install pkg-config
-pecl install imagick
-ln -s /usr/local/Cellar/php@7.1/7.1.27/pecl /usr/local/lib/php/pecl
+#brew install imagemagick
+#brew install pkg-config
+#pecl install imagick
+#rm /usr/local/lib/php/pecl
+#ln -s /usr/local/Cellar/php@7.1/7.1.27/pecl /usr/local/lib/php/pecl
 php -v
 sudo brew services restart php@7.1
 
