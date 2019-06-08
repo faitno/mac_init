@@ -29,7 +29,8 @@ brew cask install firefox
 brew cask install telegram
 brew cask install whatsapp
 brew cask install WordService
-brew cask install coteditor
+#brew cask install coteditor
+brew cask install bbedit
 brew cask install qbittorrent
 brew cask install visual-studio-code
 #https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
