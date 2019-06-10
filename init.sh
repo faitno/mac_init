@@ -31,6 +31,8 @@ brew cask install whatsapp
 brew cask install WordService
 #brew cask install coteditor
 brew cask install bbedit
+#https://gist.github.com/isao/8983629 #BBEdit Codeless Language Module for Nginx Configuration files
+#copy to /Users/USERNAME/Library/Application Support/BBEdit/Language Modules/
 brew cask install qbittorrent
 brew cask install visual-studio-code
 #https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
