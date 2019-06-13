@@ -26,6 +26,7 @@ brew install mc
 brew tap caskroom/cask
 brew cask install the-unarchiver
 brew cask install google-chrome
+brew cask install tor-browser
 brew cask install firefox
 brew cask install telegram
 brew cask install whatsapp
