@@ -24,6 +24,7 @@ user$ sudo chsh -s /usr/local/opt/bash/bin/bash
 brew install mc
 
 brew tap caskroom/cask
+brew cask install licecap #screen2gif recorder
 brew cask install the-unarchiver
 brew cask install google-chrome
 brew cask install tor-browser
