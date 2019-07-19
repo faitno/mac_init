@@ -1,5 +1,6 @@
 #system settings
 sudo pmset hibernatemode 0
+defaults write -g com.apple.mouse.scaling -float 5.0 #magic mouse, 3.0 default
 defaults write -g InitialKeyRepeat -int 15
 defaults write -g KeyRepeat -int 2
 defaults write -g com.apple.mouse.scaling 1
@@ -24,6 +25,7 @@ user$ sudo chsh -s /usr/local/opt/bash/bin/bash
 brew install mc
 
 brew tap caskroom/cask
+brew cask install magicprefs #magic mouse
 brew cask install licecap #screen2gif recorder
 brew cask install the-unarchiver
 brew cask install google-chrome
