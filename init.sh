@@ -40,6 +40,7 @@ brew cask install bbedit
 #https://gist.github.com/isao/8983629 #BBEdit Codeless Language Module for Nginx Configuration files
 #copy to /Users/USERNAME/Library/Application Support/BBEdit/Language Modules/
 brew cask install qbittorrent
+brew cask install vlc
 brew cask install vscodium
 #brew cask install visual-studio-code
 #https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
@@ -57,6 +58,7 @@ brew cask install virtualbox;
 brew cask install thunderbird
 https://addons.thunderbird.net/en-US/thunderbird/addon/thunderhtmledit/
 brew cask install plistedit-pro
+#https://www.fosshub.com/Audacity.html/audacity-macos-2.3.1.dmg
 brew install wine
 brew install node
 brew install wget
