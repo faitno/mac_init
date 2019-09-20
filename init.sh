@@ -1,5 +1,6 @@
 #system settings
 sudo pmset hibernatemode 0
+sudo nvram bluetoothHostControllerSwitchBehavior=always #https://apple.stackexchange.com/questions/94402/force-os-x-to-use-bluetooth-dongle-instead-of-built-in-controller
 defaults write -g com.apple.mouse.scaling -float 65.0 #magic mouse, 3.0 default
 defaults write -g InitialKeyRepeat -int 15
 defaults write -g KeyRepeat -int 2
