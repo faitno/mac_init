@@ -70,6 +70,9 @@ brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Librar
 brew cleanup 
 echo 'export VISUAL=nano; export EDITOR="$VISUAL"' >> ~/.bashrc
 
+#ram-disk for safari
+https://github.com/zafarella/OSX-RAMDisk
+
 #xcode
 https://developer.apple.com/download/more/
 #macOS 10.12.6 sierra - xcode ver: 9.2.1
