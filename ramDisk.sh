@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 ramfs_size_mb=1024
 ramfs_size_sectors=$((ramfs_size_mb*1024*1024/512))
 mount_point=/Users/${USER}/ramdisk
