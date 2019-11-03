@@ -9,6 +9,7 @@ umount -f "${mount_point}"
 newfs_hfs -v 'ramdisk' "${ramdisk_device}"
 mkdir -p "${mount_point}"
 mount -o noatime -t hfs "${ramdisk_device}" "${mount_point}"
+mdutil -i off "${mount_point}"
 
 /bin/mkdir -p "${USERRAMDISK}"/temp
 /bin/mkdir -p "${USERRAMDISK}"/wget
