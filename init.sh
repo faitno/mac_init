@@ -71,7 +71,8 @@ brew cleanup
 echo 'export VISUAL=nano; export EDITOR="$VISUAL"' >> ~/.bashrc
 
 #ram-disk for safari
-https://github.com/zafarella/OSX-RAMDisk
+#https://github.com/zafarella/OSX-RAMDisk
+https://github.com/imothee/tmpdisk/releases
 
 #xcode
 https://developer.apple.com/download/more/
