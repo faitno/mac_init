@@ -1,5 +1,5 @@
 #!/bin/bash
-ramfs_size_mb=1024
+ramfs_size_mb=1536
 ramfs_size_sectors=$((ramfs_size_mb*1024*1024/512))
 mount_point=/Users/${USER}/ramdisk
 ramdisk_device=$(hdid -nomount ram://${ramfs_size_sectors} | xargs)
@@ -40,3 +40,15 @@ touch "${mount_point}"/.fseventsd/no_log "${mount_point}"/.metadata_never_index 
 /bin/rm -rf ~/Library/Caches/com.sequelpro.SequelPro
 /bin/mkdir -p "${USERRAMDISK}"/Library/Caches/com.sequelpro.SequelPro
 /bin/ln -s "${USERRAMDISK}"/Library/Caches/com.sequelpro.SequelPro ~/Library/Caches/com.sequelpro.SequelPro
+
+/bin/rm -rf ~/Library/"Application Support"/VSCodium/Cache
+/bin/mkdir -p "${USERRAMDISK}"/Library/"Application Support"/VSCodium/Cache
+/bin/ln -s "${USERRAMDISK}"/Library/"Application Support"/VSCodium/Cache ~/Library/"Application Support"/VSCodium/Cache
+
+/bin/rm -rf ~/Library/"Application Support"/VSCodium/CachedData
+/bin/mkdir -p "${USERRAMDISK}"/Library/"Application Support"/VSCodium/CachedData
+/bin/ln -s "${USERRAMDISK}"/Library/"Application Support"/VSCodium/CachedData ~/Library/"Application Support"/VSCodium/CachedData
+
+/bin/rm -rf ~/Library/"Application Support"/VSCodium/CachedExtensions
+/bin/mkdir -p "${USERRAMDISK}"/Library/"Application Support"/VSCodium/CachedExtensions
+/bin/ln -s "${USERRAMDISK}"/Library/"Application Support"/VSCodium/CachedExtensions ~/Library/"Application Support"/VSCodium/CachedExtensions
