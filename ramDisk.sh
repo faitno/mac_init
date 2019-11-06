@@ -10,9 +10,11 @@ newfs_hfs -v 'ramdisk' "${ramdisk_device}"
 mkdir -p "${mount_point}"
 mount -o noatime -t hfs "${ramdisk_device}" "${mount_point}"
 mdutil -i off "${mount_point}"
-rm -rf "${mount_point}"/{,_.}{fseventsd,Spotlight-V*,Trashes}
+#rm -rf "${mount_point}"/{,_.}{fseventsd,Spotlight-V*,Trashes}
+rm -rf "${mount_point}"/{,_.}{fseventsd,Spotlight-V*}
 mkdir "${mount_point}"/.fseventsd
-touch "${mount_point}"/.fseventsd/no_log "${mount_point}"/.metadata_never_index "${mount_point}"/.Trashes
+#touch "${mount_point}"/.fseventsd/no_log "${mount_point}"/.metadata_never_index "${mount_point}"/.Trashes
+touch "${mount_point}"/.fseventsd/no_log "${mount_point}"/.metadata_never_index
 
 /bin/mkdir -p "${USERRAMDISK}"/temp
 /bin/mkdir -p "${USERRAMDISK}"/wget
