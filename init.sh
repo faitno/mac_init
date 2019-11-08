@@ -41,8 +41,8 @@ brew cask install telegram
 brew cask install whatsapp
 brew cask install WordService
 brew cask install libreoffice #for read large >2mb xls files
-#brew cask install coteditor
-brew cask install bbedit
+brew cask install coteditor
+#brew cask install bbedit
 #https://gist.github.com/isao/8983629 #BBEdit Codeless Language Module for Nginx Configuration files
 #copy to /Users/USERNAME/Library/Application Support/BBEdit/Language Modules/
 brew cask install qbittorrent
@@ -83,7 +83,7 @@ echo 'export VISUAL=nano; export EDITOR="$VISUAL"' >> ~/.bashrc
 
 #ram-disk for safari
 #https://github.com/zafarella/OSX-RAMDisk
-https://github.com/imothee/tmpdisk/releases
+#https://github.com/imothee/tmpdisk/releases
 
 #xcode
 https://developer.apple.com/download/more/
