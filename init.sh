@@ -61,7 +61,8 @@ brew cask install cyberduck
 #brew cask install cyberduck@6.6.1 - don't respond @buy me!
 brew cask install gimp
 #https://www.macports.org/install.php
-sudo port install inkscape
+https://inkscape.org/release/inkscape-1.0/
+# sudo port install inkscape
 # brew cask install xquartz #need enter sudo pass!
 # brew cask install inkscape
 brew cask install calibre
