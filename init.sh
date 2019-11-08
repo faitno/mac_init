@@ -60,8 +60,10 @@ brew cask install hex-fiend
 brew cask install cyberduck
 #brew cask install cyberduck@6.6.1 - don't respond @buy me!
 brew cask install gimp
-brew cask install xquartz #need enter sudo pass!
-brew cask install inkscape
+#https://www.macports.org/install.php
+sudo port install inkscape
+# brew cask install xquartz #need enter sudo pass!
+# brew cask install inkscape
 brew cask install calibre
 brew cask install iterm2
 brew cask install virtualbox;
