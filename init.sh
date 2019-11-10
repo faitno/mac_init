@@ -31,6 +31,7 @@ user$ sudo chsh -s /usr/local/opt/bash/bin/bash
 brew install mc
 
 brew tap caskroom/cask
+brew cask install hwsensors
 brew cask install magicprefs #magic mouse
 brew cask install licecap #screen2gif recorder
 brew cask install the-unarchiver
