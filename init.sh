@@ -6,6 +6,8 @@ sudo rm /private/var/vm/sleepimage
 #sudo chflags uchg /private/var/vm/sleepimage #make it unwritable
 
 #set TTL from 64 to 65 for mobile hotspot
+net.inet.ip.ttl=65
+#for after restart TTL work too:
 sudo touch /etc/sysctl.conf
 sudo echo "net.inet.ip.ttl=65" > /etc/sysctl.conf
 
