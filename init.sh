@@ -5,6 +5,10 @@ sudo rm /private/var/vm/sleepimage
 #sudo touch /private/var/vm/sleepimage #create a blank sleepimage file
 #sudo chflags uchg /private/var/vm/sleepimage #make it unwritable
 
+#set TTL from 64 to 65 for mobile hotspot
+sudo touch /etc/sysctl.conf
+sudo echo "net.inet.ip.ttl=65" > /etc/sysctl.conf
+
 sudo nvram bluetoothHostControllerSwitchBehavior=always #https://apple.stackexchange.com/questions/94402/force-os-x-to-use-bluetooth-dongle-instead-of-built-in-controller
 defaults write -g com.apple.mouse.scaling -float 65.0 #magic mouse, 3.0 default
 defaults write -g InitialKeyRepeat -int 15
