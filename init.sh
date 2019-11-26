@@ -156,3 +156,6 @@ npm install --global gulp-cli
 #npm install --global coffee-script
 brew install bower
 #Yarn and Parcel need
+
+#upnp manager
+https://github.com/kaklakariada/portmapper
