@@ -5,6 +5,9 @@ sudo rm /private/var/vm/sleepimage
 #sudo touch /private/var/vm/sleepimage #create a blank sleepimage file
 #sudo chflags uchg /private/var/vm/sleepimage #make it unwritable
 
+#upnp manager
+https://github.com/kaklakariada/portmapper
+https://adoptopenjdk.net/releases.html?variant=openjdk11&jvmVariant=hotspot
 #set TTL from 64 to 65 for mobile hotspot
 net.inet.ip.ttl=65
 #for after restart TTL work too:
@@ -156,6 +159,3 @@ npm install --global gulp-cli
 #npm install --global coffee-script
 brew install bower
 #Yarn and Parcel need
-
-#upnp manager
-https://github.com/kaklakariada/portmapper
