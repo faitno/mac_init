@@ -83,6 +83,7 @@ brew cask install thunderbird
 https://addons.thunderbird.net/en-US/thunderbird/addon/thunderhtmledit/
 brew cask install seamonkey --language=en-US
 brew cask install plistedit-pro
+brew cask install apppolice
 brew cask install amorphousdiskmark #ssd perfomance check
 #https://www.fosshub.com/Audacity.html/audacity-macos-2.3.1.dmg
 ###!!!!brew cask install clean-me - break system!
