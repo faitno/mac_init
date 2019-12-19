@@ -72,7 +72,7 @@ brew cask install cyberduck
 brew cask install gimp
 #https://www.macports.org/install.php
 https://inkscape.org/release/inkscape-1.0/
-https://github.com/stefansl/image-shrinker/releases
+https://github.com/stefansl/image-shrinker/releases #optimize images jpg svg gif
 # sudo port install inkscape
 # brew cask install xquartz #need enter sudo pass!
 # brew cask install inkscape
