@@ -1,5 +1,11 @@
 #system settings
-sudo pmset hibernatemode 0
+sudo pmset -a hibernatemode 0 # what is -a?
+#reboot
+sudo rm -f /private/var/vm/sleepimage #remove
+sudo touch /private/var/vm/sleepimage #create empty
+sudo chflags uchg /private/var/vm/sleepimage  #set readonly
+ls -la /private/var/vm  #check size of 0 bytes
+#sudo pmset hibernatemode 0
 sudo rm /private/var/vm/sleepimage
 #sudo rm -f /private/var/vm/sleepimage
 #sudo touch /private/var/vm/sleepimage #create a blank sleepimage file
