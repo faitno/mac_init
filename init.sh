@@ -98,6 +98,11 @@ brew install wine
 brew install node
 brew install wget
 brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
+
+sudo nano /etc/ssh/ssh_config
+#Host *
+#    ServerAliveInterval 120
+
 brew cleanup 
 echo 'export VISUAL=nano; export EDITOR="$VISUAL"' >> ~/.bashrc
 
