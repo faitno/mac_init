@@ -98,7 +98,7 @@ brew install wine
 brew install node
 brew install wget
 brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
-
+brew install e2fsprogs #hdd repair/scan #diskutil list #badblocks /dev/diskX
 #packet_write_wait: Connection to *.*.*.* port 22: Broken pipe
 sudo nano /etc/ssh/ssh_config
 #Host *
