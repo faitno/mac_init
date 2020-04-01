@@ -20,6 +20,9 @@ net.inet.ip.ttl=65
 sudo touch /etc/sysctl.conf
 sudo echo "net.inet.ip.ttl=65" > /etc/sysctl.conf
 
+#timemachine
+defaults write com.apple.systempreferences TMShowUnsupportedNetworkVolumes 1 #use any drive for timemachine
+
 sudo nvram bluetoothHostControllerSwitchBehavior=always #https://apple.stackexchange.com/questions/94402/force-os-x-to-use-bluetooth-dongle-instead-of-built-in-controller
 defaults write -g com.apple.mouse.scaling -float 65.0 #magic mouse, 3.0 default
 defaults write -g InitialKeyRepeat -int 15
