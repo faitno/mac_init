@@ -27,7 +27,7 @@ sudo nvram bluetoothHostControllerSwitchBehavior=always #https://apple.stackexch
 defaults write -g com.apple.mouse.scaling -float 65.0 #magic mouse, 3.0 default
 defaults write -g InitialKeyRepeat -int 15
 defaults write -g KeyRepeat -int 2
-defaults write -g com.apple.trackpad.scaling -float 5.0 #magic trackpad sesitivity, default max 3.0
+defaults write -g com.apple.trackpad.scaling -float 5.5 #magic trackpad sesitivity, default max 3.0
 #defaults write -g com.apple.mouse.scaling 1
 
 defaults write com.apple.menuextra.clock IsAnalog -bool true
