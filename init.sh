@@ -15,7 +15,7 @@ sudo rm /private/var/vm/sleepimage
 https://github.com/kaklakariada/portmapper
 https://adoptopenjdk.net/releases.html?variant=openjdk11&jvmVariant=hotspot
 #set TTL from 64 to 65 for mobile hotspot
-net.inet.ip.ttl=65
+sudo sysctl -w net.inet.ip.ttl=65
 #for after restart TTL work too:
 sudo touch /etc/sysctl.conf
 sudo echo "net.inet.ip.ttl=65" > /etc/sysctl.conf
@@ -50,6 +50,7 @@ user$ sudo chsh -s /usr/local/opt/bash/bin/bash
 brew install mc
 
 brew tap caskroom/cask
+brew cask install find-any-file
 brew cask install hwsensors
 brew cask install magicprefs #magic mouse
 brew cask install licecap #screen2gif recorder
