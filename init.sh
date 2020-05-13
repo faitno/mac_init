@@ -62,6 +62,7 @@ brew cask install telegram
 brew cask install whatsapp
 brew cask install WordService
 brew cask install libreoffice #for read large >2mb xls files
+brew cask install bbedit
 brew cask install coteditor
 #brew cask install bbedit
 #https://gist.github.com/isao/8983629 #BBEdit Codeless Language Module for Nginx Configuration files
