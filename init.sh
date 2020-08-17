@@ -75,7 +75,6 @@ brew cask install vscodium
 #brew cask install visual-studio-code
 #https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
 #brew cask install karabiner-elements
-brew cask install teamviewer
 brew cask install skype
 brew cask install sequel-pro
 brew cask install hex-fiend
@@ -183,6 +182,9 @@ brew install bower
 #clean unneeded dependencies
 brew bundle dump
 brew bundle --force cleanup
+
+#repo that need root pass
+brew cask install teamviewer
 
 #repo not in brew
 https://inkscape.org/release/inkscape-1.0/
