@@ -11,6 +11,10 @@ ls -la /private/var/vm  #check size of 0 bytes
 #sudo touch /private/var/vm/sleepimage #create a blank sleepimage file
 #sudo chflags uchg /private/var/vm/sleepimage #make it unwritable
 
+#enable Airdrop on EVERY wifi device usb-wifi
+# Then Restart Finder or restart your computer
+defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
+
 #upnp manager
 https://github.com/kaklakariada/portmapper
 https://adoptopenjdk.net/releases.html?variant=openjdk11&jvmVariant=hotspot
