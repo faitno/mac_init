@@ -48,6 +48,7 @@ sudo bash -c 'echo /usr/local/opt/bash/bin/bash >> /etc/shells'
 chsh -s /usr/local/opt/bash/bin/bash
 sudo chsh -s /usr/local/opt/bash/bin/bash
 brew install mc
+brew install htop
 
 brew tap caskroom/cask
 brew cask install find-any-file
