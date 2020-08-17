@@ -52,10 +52,10 @@ brew install mc
 brew tap caskroom/cask
 brew cask install find-any-file
 brew cask install hwsensors
-brew cask install magicprefs #magic mouse
-brew cask install licecap #screen2gif recorder
+#brew cask install magicprefs #magic mouse
+#brew cask install licecap #screen2gif recorder -< in new catalina mac os may be not need
 brew cask install the-unarchiver
-brew cask install google-chrome
+#brew cask install google-chrome
 brew cask install tor-browser
 brew cask install firefox
 brew cask install telegram
@@ -70,11 +70,11 @@ brew cask install coteditor
 brew cask install qbittorrent
 #brew cask install vlc
 brew cask install mplayerx #replace vlc
-brew cask install qlvideo #preview on finder for h.265 and over video files
+#brew cask install qlvideo #preview on finder for h.265 and over video files
 brew cask install vscodium
 #brew cask install visual-studio-code
 #https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
-brew cask install karabiner-elements
+#brew cask install karabiner-elements
 brew cask install teamviewer
 brew cask install skype
 brew cask install sequel-pro
@@ -83,9 +83,6 @@ brew cask install cyberduck
 #brew cask install cyberduck@6.6.1 - don't respond @buy me!
 brew cask install gimp
 #https://www.macports.org/install.php
-https://inkscape.org/release/inkscape-1.0/
-https://github.com/stefansl/image-shrinker/releases #optimize images jpg svg gif
-http://toki-woki.net/p/Shrink-O-Matic/ #rotate image by EXIF info
 # sudo port install inkscape
 # brew cask install xquartz #need enter sudo pass!
 # brew cask install inkscape
@@ -93,10 +90,10 @@ brew cask install calibre
 brew cask install iterm2
 brew cask install virtualbox;
 brew cask install thunderbird
-https://addons.thunderbird.net/en-US/thunderbird/addon/thunderhtmledit/
+#https://addons.thunderbird.net/en-US/thunderbird/addon/thunderhtmledit/
 brew cask install seamonkey --language=en-US
 brew cask install plistedit-pro
-brew cask install apppolice
+#brew cask install apppolice
 brew cask install amorphousdiskmark #ssd perfomance check
 #https://www.fosshub.com/Audacity.html/audacity-macos-2.3.1.dmg
 ###!!!!brew cask install clean-me - break system!
@@ -105,11 +102,13 @@ brew install node
 brew install wget
 brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
 #https://superuser.com/a/1366790/594495
-brew install e2fsprogs #hdd repair/scan #diskutil list #/usr/local/Cellar/e2fsprogs/1.44.3/sbin/badblocks -v /dev/diskX
+#brew install e2fsprogs #hdd repair/scan #diskutil list #/usr/local/Cellar/e2fsprogs/1.44.3/sbin/badblocks -v /dev/diskX
 #packet_write_wait: Connection to *.*.*.* port 22: Broken pipe
-sudo nano /etc/ssh/ssh_config
+
+#sudo nano /etc/ssh/ssh_config
 #Host *
 #    ServerAliveInterval 120
+#for 4g ssh norm connection
 
 brew cleanup 
 echo 'export VISUAL=nano; export EDITOR="$VISUAL"' >> ~/.bashrc
@@ -119,7 +118,7 @@ echo 'export VISUAL=nano; export EDITOR="$VISUAL"' >> ~/.bashrc
 #https://github.com/imothee/tmpdisk/releases
 
 #xcode
-https://developer.apple.com/download/more/
+#https://developer.apple.com/download/more/
 #macOS 10.12.6 sierra - xcode ver: 9.2.1
 
 #Mac App Store command line interface
@@ -184,3 +183,9 @@ brew install bower
 #clean unneeded dependencies
 brew bundle dump
 brew bundle --force cleanup
+
+#repo not in brew
+https://inkscape.org/release/inkscape-1.0/
+https://github.com/stefansl/image-shrinker/releases #optimize images jpg svg gif
+http://toki-woki.net/p/Shrink-O-Matic/ #rotate image by EXIF info
+
