@@ -96,7 +96,6 @@ brew cask install amorphousdiskmark #ssd perfomance check
 #https://www.fosshub.com/Audacity.html/audacity-macos-2.3.1.dmg
 ###!!!!brew cask install clean-me - break system!
 brew install wine
-brew install node
 brew install wget
 brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
 #https://superuser.com/a/1366790/594495
@@ -181,6 +180,9 @@ brew install bower
 #clean unneeded dependencies
 brew bundle dump
 brew bundle --force cleanup
+
+#repo that need chouse version
+brew install node
 
 #repo that need root pass
 brew cask install teamviewer
