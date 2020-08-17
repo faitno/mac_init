@@ -14,7 +14,7 @@ ls -la /private/var/vm  #check size of 0 bytes
 #enable Airdrop on EVERY wifi device usb-wifi
 # Then Restart Finder or restart your computer
 #https://gist.github.com/vansteen/3199403
-defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
+#defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
 
 #upnp manager
 https://github.com/kaklakariada/portmapper
