@@ -87,7 +87,6 @@ brew cask install gimp
 # brew cask install inkscape
 brew cask install calibre
 brew cask install iterm2
-brew cask install virtualbox;
 brew cask install thunderbird
 #https://addons.thunderbird.net/en-US/thunderbird/addon/thunderhtmledit/
 brew cask install seamonkey --language=en-US
@@ -185,6 +184,7 @@ brew bundle --force cleanup
 
 #repo that need root pass
 brew cask install teamviewer
+brew cask install virtualbox;
 
 #repo not in brew
 https://inkscape.org/release/inkscape-1.0/
