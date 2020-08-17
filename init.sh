@@ -6,7 +6,7 @@ sudo touch /private/var/vm/sleepimage #create empty
 sudo chflags uchg /private/var/vm/sleepimage  #set readonly
 ls -la /private/var/vm  #check size of 0 bytes
 #sudo pmset hibernatemode 0
-sudo rm /private/var/vm/sleepimage
+#sudo rm /private/var/vm/sleepimage
 #sudo rm -f /private/var/vm/sleepimage
 #sudo touch /private/var/vm/sleepimage #create a blank sleepimage file
 #sudo chflags uchg /private/var/vm/sleepimage #make it unwritable
@@ -42,11 +42,11 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew update
 brew upgrade
 
-user$ brew install bash
-user$ /usr/local/opt/bash/bin/bash
-user$ sudo bash -c 'echo /usr/local/opt/bash/bin/bash >> /etc/shells'
-user$ chsh -s /usr/local/opt/bash/bin/bash
-user$ sudo chsh -s /usr/local/opt/bash/bin/bash
+brew install bash
+/usr/local/opt/bash/bin/bash
+sudo bash -c 'echo /usr/local/opt/bash/bin/bash >> /etc/shells'
+chsh -s /usr/local/opt/bash/bin/bash
+sudo chsh -s /usr/local/opt/bash/bin/bash
 brew install mc
 
 brew tap caskroom/cask
