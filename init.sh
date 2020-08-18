@@ -1,3 +1,4 @@
+sudo trimforce enable
 #system settings
 sudo pmset -a hibernatemode 0 # what is -a?
 #reboot
