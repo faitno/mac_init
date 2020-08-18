@@ -199,3 +199,5 @@ https://inkscape.org/release/inkscape-1.0/
 https://github.com/stefansl/image-shrinker/releases #optimize images jpg svg gif
 http://toki-woki.net/p/Shrink-O-Matic/ #rotate image by EXIF info
 
+#create jail folder at root in Catalina+
+echo -e 'jail\tSystem/Volumes/Data/jail' | sudo tee -a /etc/synthetic.conf
