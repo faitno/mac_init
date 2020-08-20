@@ -202,3 +202,6 @@ http://toki-woki.net/p/Shrink-O-Matic/ #rotate image by EXIF info
 
 #create jail folder at root in Catalina+
 echo -e 'jail\tSystem/Volumes/Data/jail' | sudo tee -a /etc/synthetic.conf
+
+#if process WindowServer hate more cpu (catalina 10.15 +)
+launchctl unload -w /System/Library/LaunchAgents/com.apple.mediaanalysisd.plist
