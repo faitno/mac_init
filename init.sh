@@ -103,7 +103,9 @@ brew cask install amorphousdiskmark #ssd perfomance check
 brew cask install coconutbattery
 #https://www.fosshub.com/Audacity.html/audacity-macos-2.3.1.dmg
 ###!!!!brew cask install clean-me - break system!
-brew install wine
+#brew install wine  $El capitan
+brew cask install xquartz
+brew cask install wine-stable # on higher Catalina
 brew install wget
 brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
 #https://superuser.com/a/1366790/594495
