@@ -104,7 +104,6 @@ brew cask install coconutbattery
 #https://www.fosshub.com/Audacity.html/audacity-macos-2.3.1.dmg
 ###!!!!brew cask install clean-me - break system!
 #brew install wine  $El capitan
-brew cask install xquartz
 brew cask install wine-stable # on higher Catalina
 brew install wget
 brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
@@ -195,6 +194,7 @@ brew bundle --force cleanup
 brew install node
 
 #repo that need root pass
+brew cask install xquartz
 brew cask install teamviewer
 brew cask install virtualbox;
 
