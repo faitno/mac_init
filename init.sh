@@ -104,8 +104,8 @@ brew cask install coconutbattery
 #https://www.fosshub.com/Audacity.html/audacity-macos-2.3.1.dmg
 ###!!!!brew cask install clean-me - break system!
 #brew install wine  $El capitan
-#brew cask install wine-stable # on higher Catalina
-brew cask install playonmac
+brew tap gcenx/wine
+brew cask install --no-quarantine wine-crossover
 brew install wget
 brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
 #https://superuser.com/a/1366790/594495
