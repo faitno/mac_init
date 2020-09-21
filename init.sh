@@ -1,6 +1,9 @@
 sudo trimforce enable
 #system settings
 sudo pmset -a hibernatemode 0 # what is -a?
+sudo pmset -a standbydelaylow 1800
+sudo pmset -a standbydelayhigh 3600
+#standbydelayhigh and standbydelaylow specify the delay, in seconds, before writing the hibernation image to disk and powering off memory for Standby. standbydelayhigh is used when the remaining battery capacity is high, and standbydelaylow is used when the remaining battery capacity is low.
 #reboot
 sudo rm -f /private/var/vm/sleepimage #remove
 sudo touch /private/var/vm/sleepimage #create empty
