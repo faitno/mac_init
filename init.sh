@@ -183,12 +183,12 @@ sudo ln -s /usr/local/Cellar/python@3.8/3.8.5/bin/python3 /usr/bin/python
 python -V
 #Python 3.8.5
 curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
-sudo python get-pip.py
+python get-pip.py
 #sudo pip install ansible==2.1.1
-sudo pip install ansible
-sudo pip install passlib
-sudo pip install mysqlclient
-sudo pip install google_images_download
+pip install ansible
+pip install passlib
+pip install mysqlclient
+pip install google_images_download
 
 #gulp
 npm install --global gulp-cli
