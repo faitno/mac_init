@@ -68,6 +68,7 @@ brew cask install the-unarchiver
 #brew cask install google-chrome
 brew cask install tor-browser
 brew cask install firefox
+brew cask install firefox-developer-edition
 brew cask install telegram
 brew cask install whatsapp
 brew cask install WordService
