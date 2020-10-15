@@ -80,7 +80,7 @@ brew cask install coteditor
 #copy to /Users/USERNAME/Library/Application Support/BBEdit/Language Modules/
 brew cask install qbittorrent
 #brew cask install vlc
-brew cask install mplayerx #replace vlc
+brew cask install soda-player
 #brew cask install qlvideo #preview on finder for h.265 and over video files
 brew cask install vscodium
 #brew cask install visual-studio-code
