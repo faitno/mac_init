@@ -207,7 +207,8 @@ brew install node
 #repo that need root pass
 #brew cask install xquartz
 brew cask install teamviewer
-brew cask install virtualbox;
+brew cask install zoomus
+#brew cask install virtualbox;
 
 #repo not in brew
 https://inkscape.org/release/inkscape-1.0/
