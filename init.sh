@@ -213,6 +213,7 @@ brew cask install zoomus
 #repo not in brew
 https://inkscape.org/release/inkscape-1.0/
 https://github.com/stefansl/image-shrinker/releases #optimize images jpg svg gif
+brew cask install adobe-air
 http://toki-woki.net/p/Shrink-O-Matic/ #rotate image by EXIF info
 
 #create jail folder at root in Catalina+
