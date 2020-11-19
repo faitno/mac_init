@@ -1,3 +1,7 @@
+//file location see in browser:
+//about:support
+//Profile Folder
+
 //firefox telemetry off
 //https://github.com/pyllyukko/user.js
 //https://gist.github.com/MrYar/751e0e5f3f1430db7ec5a8c8aa237b7
