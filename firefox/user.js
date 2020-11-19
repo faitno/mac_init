@@ -1,6 +1,7 @@
 //file location see in browser:
 //about:support
 //Profile Folder
+//android folder location: https://github.com/arkenfox/user.js/issues/318#issuecomment-359181951
 
 //firefox telemetry off
 //https://github.com/pyllyukko/user.js
