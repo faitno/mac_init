@@ -174,6 +174,8 @@ sudo brew services start php@7.1
 brew link php@7.1 --force
 brew services list
 https://github.com/downloads/specialunderwear/Hosts.prefpane/Hosts-1.3.pkg
+https://www.dirk-froehling.de/resources/Software/Hosts-App-1.4.5.zip
+https://www.dirk-froehling.de/downloads/downloads.html
 
 #ansible
 brew install python
