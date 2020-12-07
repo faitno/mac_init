@@ -145,7 +145,8 @@ https://www.readpixel.com/downloads/files/WakeOnLan1.0.zip
 
 #web-server
 brew install nginx
-brew install php@7.1
+brew install php@7.2
+#mkdir /usr/local/var/run/php/
 
 #https://github.com/phpredis/phpredis/issues/1341#issuecomment-402798590
 #https://github.com/Homebrew/homebrew-core/issues/26408#issuecomment-381417328
@@ -155,7 +156,7 @@ brew install php@7.1
 #rm /usr/local/lib/php/pecl
 #ln -s /usr/local/Cellar/php@7.1/7.1.27/pecl /usr/local/lib/php/pecl
 php -v
-sudo brew services restart php@7.1
+sudo brew services restart php@7.2
 
 #brew install percona-server
 brew install mysql@5.7
