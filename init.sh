@@ -149,7 +149,7 @@ brew install php@7.2
 #mkdir /usr/local/var/run/php/
 #sudo nano /etc/synthetic.conf
 #jail    /Users/alex/jail
-
+echo 'jail    /Users/alex/jail' | sudo tee /etc/synthetic.conf
 
 #https://github.com/phpredis/phpredis/issues/1341#issuecomment-402798590
 #https://github.com/Homebrew/homebrew-core/issues/26408#issuecomment-381417328
