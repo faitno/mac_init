@@ -147,6 +147,9 @@ https://www.readpixel.com/downloads/files/WakeOnLan1.0.zip
 brew install nginx
 brew install php@7.2
 #mkdir /usr/local/var/run/php/
+#sudo nano /etc/synthetic.conf
+#jail    /Users/alex/jail
+
 
 #https://github.com/phpredis/phpredis/issues/1341#issuecomment-402798590
 #https://github.com/Homebrew/homebrew-core/issues/26408#issuecomment-381417328
