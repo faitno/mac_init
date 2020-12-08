@@ -230,3 +230,7 @@ echo -e 'jail\tSystem/Volumes/Data/jail' | sudo tee -a /etc/synthetic.conf
 
 #if process WindowServer hate more cpu (catalina 10.15 +)
 launchctl unload -w /System/Library/LaunchAgents/com.apple.mediaanalysisd.plist
+
+#drivers
+#wacom cte-440 - download "v5.3.0-3 for Graphire 4 tablets" from
+#https://github.com/thenickdude/wacom-driver-fix/releases
