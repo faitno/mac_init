@@ -238,3 +238,4 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.mediaanalysisd.plist
 #Color picker
 http://download.panic.com/picker/
 http://wafflesoftware.net/hexpicker/
+https://superuser.com/questions/372855/an-application-to-easily-pick-a-color-in-mac-os-x-and-get-the-hex-value
