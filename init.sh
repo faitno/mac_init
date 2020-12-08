@@ -234,3 +234,7 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.mediaanalysisd.plist
 #drivers
 #wacom cte-440 - download "v5.3.0-3 for Graphire 4 tablets" from
 #https://github.com/thenickdude/wacom-driver-fix/releases
+
+#Color picker
+http://download.panic.com/picker/
+http://wafflesoftware.net/hexpicker/
