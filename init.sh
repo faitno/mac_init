@@ -196,6 +196,8 @@ pip install ansible
 pip install passlib
 pip install mysqlclient
 pip install google_images_download
+python3 -m pip install PyMySQL
+python3 -m pip install passlib
 
 #gulp
 npm install --global gulp-cli
