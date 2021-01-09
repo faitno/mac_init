@@ -97,6 +97,7 @@ brew cask install gimp
 # brew cask install xquartz #need enter sudo pass!
 # brew cask install inkscape
 brew cask install calibre
+brew cask install fbreader
 brew cask install iterm2
 brew cask install thunderbird
 #https://addons.thunderbird.net/en-US/thunderbird/addon/thunderhtmledit/
