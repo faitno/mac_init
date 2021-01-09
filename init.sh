@@ -67,6 +67,7 @@ brew cask install hwsensors
 brew cask install the-unarchiver
 #brew cask install google-chrome
 brew cask install tor-browser
+brew cask install waterfox-classic
 brew cask install firefox
 brew cask install firefox-developer-edition
 brew cask install telegram
