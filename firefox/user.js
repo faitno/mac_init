@@ -31,3 +31,10 @@ user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
 
 user_pref("browser.backspace_action", 2);
+
+//Firefox 4 disables two finger pinch/zoom gestures on a Mac. Here is how to make pinch/zoom work again.
+user_pref("browser.gesture.pinch.in","cmd_fullZoomReduce");
+user_pref("browser.gesture.pinch.in.shift","cmd_fullZoomReset");
+user_pref("browser.gesture.pinch.out","cmd_fullZoomEnlarge");
+user_pref("browser.gesture.pinch.out.shift","cmd_fullZoomReset");
+  
