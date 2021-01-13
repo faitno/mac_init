@@ -93,6 +93,7 @@ brew cask install hex-fiend
 brew cask install cyberduck
 #brew cask install cyberduck@6.6.1 - don't respond @buy me!
 brew cask install gimp
+brew install --cask file-juicer #Extract images from PDF, PowerPoint, Word, Excel and other Files
 #https://www.macports.org/install.php
 # sudo port install inkscape
 # brew cask install xquartz #need enter sudo pass!
