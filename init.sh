@@ -109,6 +109,7 @@ brew cask install plistedit-pro
 #brew cask install apppolice
 brew cask install amorphousdiskmark #ssd perfomance check
 brew cask install coconutbattery
+brew install --cask openmtp #android file transfer
 #https://www.fosshub.com/Audacity.html/audacity-macos-2.3.1.dmg
 ###!!!!brew cask install clean-me - break system!
 #brew install wine  $El capitan
