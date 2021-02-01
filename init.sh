@@ -68,8 +68,10 @@ brew cask install the-unarchiver
 #brew cask install google-chrome
 brew cask install tor-browser
 brew cask install waterfox-classic
-brew cask install firefox
-brew cask install firefox-developer-edition
+#https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
+#https://greasyfork.org/en/scripts/19993-ru-adlist-js-fixes
+#brew cask install firefox
+#brew cask install firefox-developer-edition
 brew cask install telegram
 brew cask install whatsapp
 brew cask install WordService
