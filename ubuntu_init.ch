@@ -1,5 +1,7 @@
+sudo apt install net-tools #ifconfig
 
 #dns over proxy
+#https://github.com/Victoralm/Install-dnscrypt-proxy-on-Ubuntu-18.04
 #https://cryptoworld.su/zashhita-privatnosti-s-pomoshhyu-dnscrypt/
 sudo add-apt-repository ppa:shevchuk/dnscrypt-proxy
 sudo apt update
