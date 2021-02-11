@@ -1,4 +1,11 @@
-sudo apt install net-tools #ifconfig
+#change mysql pass for root https://stackoverflow.com/a/58517061
+mysql
+SELECT user,authentication_string,plugin,host FROM mysql.user;
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+FLUSH PRIVILEGES;
+exit;
+
+#sudo apt install net-tools #ifconfig
 
 #dns over proxy
 #https://github.com/Victoralm/Install-dnscrypt-proxy-on-Ubuntu-18.04
