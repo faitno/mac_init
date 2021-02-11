@@ -1,3 +1,6 @@
+#change php cli version
+sudo update-alternatives --config php
+
 #change mysql pass for root https://stackoverflow.com/a/58517061
 mysql
 SELECT user,authentication_string,plugin,host FROM mysql.user;
