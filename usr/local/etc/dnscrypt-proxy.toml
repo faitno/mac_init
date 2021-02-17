@@ -1,3 +1,34 @@
+#After starting dnscrypt-proxy, you will need to point your
+#local DNS server to 127.0.0.1. You can do this by going to
+#System Preferences > "Network" and clicking the "Advanced..."
+#button for your interface. You will see a "DNS" tab where you
+#can click "+" and enter 127.0.0.1 in the "DNS Servers" section.
+
+#By default, dnscrypt-proxy runs on localhost (127.0.0.1), port 53,
+#balancing traffic across a set of resolvers. If you would like to
+#change these settings, you will have to edit the configuration file:
+#  /usr/local/etc/dnscrypt-proxy.toml
+
+#To check that dnscrypt-proxy is working correctly, open Terminal and enter the
+#following command. Replace en1 with whatever network interface you're using:
+
+#  sudo tcpdump -i en1 -vvv 'port 443'
+
+#You should see a line in the result that looks like this:
+
+# resolver.dnscrypt.info
+
+#To have launchd start dnscrypt-proxy now and restart at startup:
+#  sudo brew services start dnscrypt-proxy
+
+
+
+
+
+
+
+
+
 
 ##############################################
 #                                            #
