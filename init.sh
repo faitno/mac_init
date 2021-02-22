@@ -60,6 +60,7 @@ brew install mc
 brew install htop
 
 brew tap caskroom/cask
+brew install --cask aldente #80% charge battery for long it life
 brew cask install find-any-file
 brew cask install hwsensors
 #brew cask install magicprefs #magic mouse
