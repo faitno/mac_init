@@ -213,6 +213,7 @@ python3 -m pip install passlib
 npm install --global gulp-cli
 #npm install --global coffee-script
 brew install bower
+#bower install foundation-sites-6.6.3=foundation-sites#6.6.3  ----install version of package to specific folder
 #Yarn and Parcel need
 npm install ttf2woff2 -g #ttf2woff2 converter: cat FuturaDemiC.ttf | ttf2woff2 >> FuturaDemiC.woff2
 
