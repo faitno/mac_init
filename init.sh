@@ -144,6 +144,7 @@ echo 'export VISUAL=nano; export EDITOR="$VISUAL"' >> ~/.bashrc
 
 #Mac App Store command line interface
 brew install mas
+mas install easyres #set custom hdpi resolution
 https://itunes.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12
 
 #disable turbo-boost for longest battery work and low noise fan
