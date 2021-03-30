@@ -32,6 +32,7 @@ user_pref("datareporting.policy.dataSubmissionEnabled", false);
 
 user_pref("browser.backspace_action", 2);
 user_pref("network.IDN_show_punycode", false); //show punycode domains as symbols, but not as abracadabra
+user_pref("xpinstall.signatures.required", false); //install not signed addons
 
 
 //Firefox 4 disables two finger pinch/zoom gestures on a Mac. Here is how to make pinch/zoom work again.
