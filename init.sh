@@ -158,6 +158,8 @@ https://www.readpixel.com/downloads/files/WakeOnLan1.0.zip
 #web-server
 brew install nginx
 brew install php@7.2
+brew install php@7.4
+brew install composer
 #mkdir /usr/local/var/run/php/
 #sudo nano /etc/synthetic.conf
 #jail    /Users/alex/jail
