@@ -121,6 +121,7 @@ brew install --cask openmtp #android file transfer
 brew tap gcenx/wine
 brew cask install --no-quarantine wine-crossover
 brew install wget
+brew install telnet
 brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
 #https://superuser.com/a/1366790/594495
 #brew install e2fsprogs #hdd repair/scan #diskutil list #/usr/local/Cellar/e2fsprogs/1.44.3/sbin/badblocks -v /dev/diskX
