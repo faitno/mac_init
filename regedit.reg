@@ -1,7 +1,9 @@
 Windows Registry Editor Version 5.00
 
+;fix bootcamp time zone
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]
 "RealTimeIsUniversal"=dword:1
+;disable fast boot (if enabled reboot fter power off)
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power]
 "HiberbootEnabled"=dword:0
 ;ttl change - not work
