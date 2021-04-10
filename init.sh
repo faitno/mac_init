@@ -1,5 +1,6 @@
 sudo trimforce enable
 #system settings
+touch ~/.hushlogin #speedup terminal tab init
 sudo pmset -a hibernatemode 0 # what is -a?
 sudo pmset -a standbydelaylow 1800
 sudo pmset -a standbydelayhigh 3600
