@@ -30,6 +30,7 @@ user_pref("datareporting.policy.dataSubmissionEnabled", false);
 user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
 
+user_pref("network.security.esni.enabled", true); //encrypt tls — need more settings to work
 user_pref("browser.backspace_action", 2); //backspace not backward to history
 user_pref("view_source.wrap_long_lines", true); //word_wrap on view-source
 user_pref("network.IDN_show_punycode", false); //show punycode domains as symbols, but not as abracadabra
