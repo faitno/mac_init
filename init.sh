@@ -33,6 +33,9 @@ sudo echo "net.inet.ip.ttl=65" > /etc/sysctl.conf
 #timemachine
 defaults write com.apple.systempreferences TMShowUnsupportedNetworkVolumes 1 #use any drive for timemachine
 
+#disable notification update
+defaults write com.apple.systempreferences AttentionPrefBundleIDs 0 #https://apple.stackexchange.com/questions/344278/how-can-i-disable-the-red-software-update-notification-bubble-on-the-system-pref
+
 sudo nvram bluetoothHostControllerSwitchBehavior=always #https://apple.stackexchange.com/questions/94402/force-os-x-to-use-bluetooth-dongle-instead-of-built-in-controller
 defaults write -g com.apple.mouse.scaling -float 65.0 #magic mouse, 3.0 default
 defaults write -g InitialKeyRepeat -int 15
