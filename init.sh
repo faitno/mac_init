@@ -66,6 +66,7 @@ brew install htop
 brew tap caskroom/cask
 brew install --cask aldente #80% charge battery for long it life
 brew cask install find-any-file
+brew install --cask disk-inventory-x #show large filess, easy clear space
 brew cask install hwsensors
 #brew cask install magicprefs #magic mouse
 #brew cask install licecap #screen2gif recorder -< in new catalina mac os may be not need
