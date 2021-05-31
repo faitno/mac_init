@@ -33,6 +33,9 @@ sudo echo "net.inet.ip.ttl=65" > /etc/sysctl.conf
 #timemachine
 defaults write com.apple.systempreferences TMShowUnsupportedNetworkVolumes 1 #use any drive for timemachine
 
+
+#useful commands 
+sudo update_dyld_shared_cache -force #update cahe links https://zer0-in.livejournal.com/19105.html
 #disable notification update
 defaults write com.apple.systempreferences AttentionPrefBundleIDs 0 #https://apple.stackexchange.com/questions/344278/how-can-i-disable-the-red-software-update-notification-bubble-on-the-system-pref
 
