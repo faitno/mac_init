@@ -134,6 +134,8 @@ brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Librar
 #https://superuser.com/a/1366790/594495
 #brew install e2fsprogs #hdd repair/scan #diskutil list #/usr/local/Cellar/e2fsprogs/1.44.3/sbin/badblocks -v /dev/diskX
 #packet_write_wait: Connection to *.*.*.* port 22: Broken pipe
+brew install proxychains-ng -s #Where the -s tells brew to compile from source.
+
 
 #sudo nano /etc/ssh/ssh_config
 #Host *
