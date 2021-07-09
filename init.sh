@@ -20,7 +20,7 @@ ls -la /private/var/vm  #check size of 0 bytes
 # Then Restart Finder or restart your computer
 #https://gist.github.com/vansteen/3199403
 #defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
-
+brew install --cask onyx
 #upnp manager
 https://github.com/kaklakariada/portmapper
 https://adoptopenjdk.net/releases.html?variant=openjdk11&jvmVariant=hotspot
