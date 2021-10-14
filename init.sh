@@ -174,6 +174,8 @@ https://www.readpixel.com/downloads/files/WakeOnLan1.0.zip
 brew install nginx
 brew install php@7.2
 brew install php@7.4
+brew tap shivammathur/php
+brew install shivammathur/php/php@7.1
 brew install composer
 #mkdir /usr/local/var/run/php/
 #sudo nano /etc/synthetic.conf
