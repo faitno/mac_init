@@ -58,11 +58,16 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew update
 brew upgrade
 
-brew install bash
-/usr/local/opt/bash/bin/bash
-sudo bash -c 'echo /usr/local/opt/bash/bin/bash >> /etc/shells'
-chsh -s /usr/local/opt/bash/bin/bash
-sudo chsh -s /usr/local/opt/bash/bin/bash
+#brew install bash
+#/usr/local/opt/bash/bin/bash
+#sudo bash -c 'echo /usr/local/opt/bash/bin/bash >> /etc/shells'
+#chsh -s /usr/local/opt/bash/bin/bash
+#sudo chsh -s /usr/local/opt/bash/bin/bash
+brew install fish
+sudo sh -c 'echo /usr/local/bin/fish >> /etc/shells'
+chsh -s /usr/local/bin/fish
+set -U fish_user_paths /usr/local/bin $fish_user_paths
+
 brew install mc
 brew install htop
 
