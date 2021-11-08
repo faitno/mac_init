@@ -91,7 +91,8 @@ brew cask install telegram
 brew cask install whatsapp
 brew cask install WordService
 brew cask install libreoffice #for read large >2mb xls files
-brew cask install bbedit      #for large files edit
+#brew cask install bbedit      #for large files edit
+brew install --cask bbedit
 brew cask install coteditor
 #brew cask install bbedit
 #https://gist.github.com/isao/8983629 #BBEdit Codeless Language Module for Nginx Configuration files
@@ -100,7 +101,7 @@ brew cask install qbittorrent
 #brew cask install vlc
 brew cask install soda-player
 #brew cask install qlvideo #preview on finder for h.265 and over video files
-brew cask install vscodium
+#brew cask install vscodium #bbedit instead
 #brew cask install visual-studio-code
 #https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
 #brew cask install karabiner-elements
