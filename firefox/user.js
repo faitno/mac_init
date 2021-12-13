@@ -7,6 +7,7 @@
 //https://github.com/pyllyukko/user.js
 //https://gist.github.com/MrYar/751e0e5f3f1430db7ec5a8c8aa237b7
 //https://www.howtogeek.com/557929/how-to-see-and-disable-the-telemetry-data-firefox-collects-about-you/
+user_pref("browser.fullscreen.autohide", true); //https://superuser.com/a/1181724
 user_pref("devtools.onboarding.telemetry.logged", false);
 user_pref("toolkit.telemetry.updatePing.enabled", false);
 user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
