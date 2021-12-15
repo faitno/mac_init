@@ -259,6 +259,7 @@ brew install node
 #brew cask install xquartz
 brew cask install teamviewer
 brew cask install zoomus
+brew install --cask dash #for read docs for Zurb Foundation 6.2.4
 #brew cask install virtualbox;
 
 #repo not in brew
