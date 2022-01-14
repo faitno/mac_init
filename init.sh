@@ -169,7 +169,8 @@ echo 'export VISUAL=nano; export EDITOR="$VISUAL"' >> ~/.bashrc
 #Mac App Store command line interface
 brew install mas
 mas install easyres #set custom hdpi resolution
-brew install --cask avibrazil-rdm #Utility to set a Retina display to custom resolutions
+###brew install --cask avibrazil-rdm #Utility to set a Retina display to custom resolutions
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)" add retina resolution hidpi to any monitor
 https://itunes.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12
 
 #disable turbo-boost for longest battery work and low noise fan
