@@ -1,4 +1,5 @@
 #~/Library/Preferences/com.apple.Terminal.plist history terminal.app by menu click "new command"
+#~/Library/Containers/com.coteditor.CotEditor/Data/Library/Preferences/com.coteditor.CotEditor.plist history "find & replace" CotEditor.app
 
 sudo trimforce enable
 #system settings
