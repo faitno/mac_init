@@ -1,0 +1,48 @@
+{
+    "telemetry.enableTelemetry": false,
+    "gulptasks.pattern": "**/gulpfile*.{js2,coffee}",
+    "files.autoSave": "onFocusChange",
+    "files.autoSaveDelay": 200,
+    "terminal.integrated.fontSize": 14,
+    "editor.fontSize": 14,
+    "explorer.confirmDelete": false,
+    "workbench.activityBar.visible": false,
+    "quicktask.gulpGlob": "**/{gulpfile.js,gulpfile.babel.js}",
+    "cSpell.language": "en,ru",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/bower_components/**": true,
+    },
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": true,
+    "window.openFoldersInNewWindow": "on",
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1556188305075,
+    "explorer.confirmDragAndDrop": false,
+    "git.ignoreMissingGitWarning": true,
+    "editor.wordWrap": "on",
+    "terminal.integrated.rendererType": "dom",
+    "update.showReleaseNotes": false,
+    "terminal.explorerKind": "external",
+    "editor.insertSpaces": false,
+    "sync.gist": "3a83e64af41e615c8ff9a93a3e82cf3a",
+    "breadcrumbs.enabled": false,
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "scssFormatter.useTabs": true,
+    "scssFormatter.tabWidth": 4,
+    "sync.autoUpload": false,
+    "editor.maxTokenizationLineLength": 200000,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "[javascript]": {
+        "editor.defaultFormatter": "mblode.pretty-formatter"
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false
+}
