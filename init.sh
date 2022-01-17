@@ -198,6 +198,8 @@ brew install shivammathur/php/php@7.3
 brew install shivammathur/php/php@7.4
 brew tap shivammathur/extensions
 brew install imagick@7.4
+#port install imagemagick  -- work .webp
+#sudo pecl install imagick  -- work .webp
 brew install composer
 #mkdir /usr/local/var/run/php/
 #sudo nano /etc/synthetic.conf
