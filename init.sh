@@ -1,3 +1,5 @@
+#~/Library/Preferences/com.apple.Terminal.plist history terminal.app by menu click "new command"
+
 sudo trimforce enable
 #system settings
 touch ~/.hushlogin #speedup terminal tab init
