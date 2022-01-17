@@ -61,6 +61,8 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew update
 brew upgrade
 
+https://github.com/jbtule/cdto #open terminal to current folder
+
 #brew install bash
 #/usr/local/opt/bash/bin/bash
 #sudo bash -c 'echo /usr/local/opt/bash/bin/bash >> /etc/shells'
