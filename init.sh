@@ -1,6 +1,8 @@
 #~/Library/Preferences/com.apple.Terminal.plist history terminal.app by menu click "new command"
 #~/Library/Containers/com.coteditor.CotEditor/Data/Library/Preferences/com.coteditor.CotEditor.plist history "find & replace" CotEditor.app
 
+#https://apps.apple.com/us/app/bandwidth/id490461369 #mac bandwidth monitor menu bar
+
 sudo trimforce enable
 #system settings
 touch ~/.hushlogin #speedup terminal tab init
