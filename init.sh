@@ -155,7 +155,7 @@ brew install mosh #for connect over LTE with change IP without reconnect
 brew install proxychains-ng -s #Where the -s tells brew to compile from source.
 #proxychains4 node app.js --name=xParserDaemon
 #/usr/local/etc/proxychains.conf
-
+brew install --cask motrix #perfect download manager
 
 #sudo nano /etc/ssh/ssh_config
 #Host *
