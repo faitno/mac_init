@@ -98,6 +98,7 @@ brew install --cask eloston-chromium #chrome without google service
 brew cask install telegram
 brew cask install whatsapp
 brew cask install WordService
+brew install --cask background-music #volume control by app and record audio by quick time from source
 brew cask install libreoffice #for read large >2mb xls files
 #brew cask install bbedit      #for large files edit
 brew install --cask bbedit
