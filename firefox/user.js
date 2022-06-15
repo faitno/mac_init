@@ -2,6 +2,7 @@
 //about:support
 //Profile Folder
 //android folder location: https://github.com/arkenfox/user.js/issues/318#issuecomment-359181951
+//wget https://raw.githubusercontent.com/faitno/mac_init/master/firefox/user.js
 
 //firefox telemetry off
 //https://github.com/pyllyukko/user.js
