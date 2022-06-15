@@ -10,7 +10,7 @@
 //https://www.howtogeek.com/557929/how-to-see-and-disable-the-telemetry-data-firefox-collects-about-you/
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("browser.urlbar.decodeURLsOnCopy", true);
-user_pref("browser.fullscreen.autohide", true); //https://superuser.com/a/1181724
+//user_pref("browser.fullscreen.autohide", true); //https://superuser.com/a/1181724
 user_pref("devtools.onboarding.telemetry.logged", false);
 user_pref("toolkit.telemetry.updatePing.enabled", false);
 user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
