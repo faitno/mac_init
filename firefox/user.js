@@ -34,7 +34,7 @@ user_pref("datareporting.policy.dataSubmissionEnabled", false);
 user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
 
-user_pref("privacy.resistFingerprinting", true); //canvas HTML5 privacy (generate random every)
+//user_pref("privacy.resistFingerprinting", true); //canvas HTML5 privacy (generate random every)
 
 //user_pref("network.security.esni.enabled", true); //encrypt tls — need more settings to work
 user_pref("network.stricttransportsecurity.preloadlist", false); //prevent auto https
