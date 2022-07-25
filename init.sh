@@ -90,6 +90,7 @@ brew cask install the-unarchiver
 #brew cask install google-chrome
 brew cask install tor-browser
 brew install --cask monitorcontrol
+brew install --cask diffmerge #file difference tools
 #brew cask install waterfox-classic
 brew install --cask eloston-chromium #chrome without google service
 #https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
