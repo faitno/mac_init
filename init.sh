@@ -80,73 +80,73 @@ brew install htop
 
 brew tap caskroom/cask
 brew install --cask aldente #80% charge battery for long it life
-brew cask install find-any-file
+brew install --cask find-any-file
 brew install --cask disk-inventory-x #show large filess, easy clear space
 brew install --cask omnidisksweeper #show large filess, easy clear space 2
-brew cask install hwsensors
-#brew cask install magicprefs #magic mouse
-#brew cask install licecap #screen2gif recorder -< in new catalina mac os may be not need
-brew cask install the-unarchiver
-#brew cask install google-chrome
-brew cask install tor-browser
+brew install --cask hwsensors
+#brew install --cask magicprefs #magic mouse
+#brew install --cask licecap #screen2gif recorder -< in new catalina mac os may be not need
+brew install --cask the-unarchiver
+#brew install --cask google-chrome
+brew install --cask tor-browser
 brew install --cask monitorcontrol
 brew install --cask diffmerge #file difference tools
-#brew cask install waterfox-classic
+#brew install --cask waterfox-classic
 brew install --cask eloston-chromium #chrome without google service
 #https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 #https://greasyfork.org/en/scripts/19993-ru-adlist-js-fixes
-#brew cask install firefox
-#brew cask install firefox-developer-edition
-brew cask install telegram
-brew cask install whatsapp
-brew cask install WordService
+#brew install --cask firefox
+#brew install --cask firefox-developer-edition
+brew install --cask telegram
+brew install --cask whatsapp
+brew install --cask WordService
 brew install --cask background-music #volume control by app and record audio by quick time from source
-brew cask install libreoffice #for read large >2mb xls files
-#brew cask install bbedit      #for large files edit
+brew install --cask libreoffice #for read large >2mb xls files
+#brew install --cask bbedit      #for large files edit
 brew install --cask bbedit
-brew cask install coteditor
-#brew cask install bbedit
+brew install --cask coteditor
+#brew install --cask bbedit
 #https://gist.github.com/isao/8983629 #BBEdit Codeless Language Module for Nginx Configuration files
 #copy to /Users/USERNAME/Library/Application Support/BBEdit/Language Modules/
-brew cask install qbittorrent
-#brew cask install vlc
-brew cask install soda-player
-#brew cask install qlvideo #preview on finder for h.265 and over video files
-#brew cask install vscodium #bbedit instead
-#brew cask install visual-studio-code
+brew install --cask qbittorrent
+#brew install --cask vlc
+brew install --cask soda-player
+#brew install --cask qlvideo #preview on finder for h.265 and over video files
+#brew install --cask vscodium #bbedit instead
+#brew install --cask visual-studio-code
 #https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
-#brew cask install karabiner-elements
-brew cask install skype
-brew cask install sequel-pro
-brew cask install hex-fiend
-brew cask install cyberduck
-#brew cask install cyberduck@6.6.1 - don't respond @buy me!
-brew cask install gimp
+#brew install --cask karabiner-elements
+brew install --cask skype
+brew install --cask sequel-pro
+brew install --cask hex-fiend
+brew install --cask cyberduck
+#brew install --cask cyberduck@6.6.1 - don't respond @buy me!
+brew install --cask gimp
 brew install --cask handbrake #video converter
 brew install --cask fontforge #fonts editor
 #brew install --cask file-juicer #Extract images from PDF, PowerPoint, Word, Excel and other Files
 #https://www.macports.org/install.php
 # sudo port install inkscape
-# brew cask install xquartz #need enter sudo pass!
-# brew cask install inkscape
-brew cask install calibre
-brew cask install fbreader
-brew cask install iterm2
-brew cask install thunderbird
+# brew install --cask xquartz #need enter sudo pass!
+# brew install --cask inkscape
+brew install --cask calibre
+brew install --cask fbreader
+brew install --cask iterm2
+brew install --cask thunderbird
 #https://addons.thunderbird.net/en-US/thunderbird/addon/thunderhtmledit/
-brew cask install seamonkey --language=en-US
-brew cask install plistedit-pro
-#brew cask install apppolice
-brew cask install amorphousdiskmark #ssd perfomance check
-brew cask install coconutbattery
+brew install --cask seamonkey --language=en-US
+brew install --cask plistedit-pro
+#brew install --cask apppolice
+brew install --cask amorphousdiskmark #ssd perfomance check
+brew install --cask coconutbattery
 brew install --cask adium
 brew install --cask controlplane
 brew install --cask openmtp #android file transfer
 #https://www.fosshub.com/Audacity.html/audacity-macos-2.3.1.dmg
-###!!!!brew cask install clean-me - break system!
+###!!!!brew install --cask clean-me - break system!
 #brew install wine  $El capitan
 brew tap gcenx/wine
-brew cask install --no-quarantine wine-crossover
+brew install --cask --no-quarantine wine-crossover
 brew install wget
 brew install telnet
 brew install hudochenkov/sshpass/sshpass
@@ -275,17 +275,17 @@ brew bundle --force cleanup
 brew install node
 
 #repo that need root pass
-#brew cask install xquartz
-brew cask install teamviewer
-brew cask install zoomus
+#brew install --cask xquartz
+brew install --cask teamviewer
+brew install --cask zoomus
 brew install --cask maccy
 #brew install --cask dash #for read docs for Zurb Foundation 6.2.4
-#brew cask install virtualbox;
+#brew install --cask virtualbox;
 
 #repo not in brew
 https://inkscape.org/release/inkscape-1.0/
 https://github.com/stefansl/image-shrinker/releases #optimize images jpg svg gif
-#brew cask install adobe-air
+#brew install --cask adobe-air
 #http://toki-woki.net/p/Shrink-O-Matic/ #rotate image by EXIF info
 brew install exiftran
 find . -type f -name "*.jpg" -exec exiftran -ai "{}" \;
@@ -301,8 +301,8 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.mediaanalysisd.plist
 #https://github.com/thenickdude/wacom-driver-fix/releases
 
 #Color picker
-#brew cask install colorpicker-hex
-brew cask install colorpicker-antetype
+#brew install --cask colorpicker-hex
+brew install --cask colorpicker-antetype
 http://download.panic.com/picker/
 http://wafflesoftware.net/hexpicker/
 https://superuser.com/questions/372855/an-application-to-easily-pick-a-color-in-mac-os-x-and-get-the-hex-value
