@@ -209,6 +209,7 @@ brew install composer
 #mkdir /usr/local/var/run/php/
 #sudo nano /etc/synthetic.conf
 #jail    /Users/alex/jail
+mkdir /Users/alex/jail
 echo 'jail    /Users/alex/jail' | sudo tee /etc/synthetic.conf
 
 #https://github.com/phpredis/phpredis/issues/1341#issuecomment-402798590
