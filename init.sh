@@ -63,7 +63,8 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew update
 brew upgrade
 
-https://github.com/jbtule/cdto #open terminal to current folder
+#https://github.com/jbtule/cdto #open terminal to current folder
+brew install --cask cd-to
 
 #brew install bash
 #/usr/local/opt/bash/bin/bash
