@@ -96,8 +96,9 @@ brew install --cask diffmerge #file difference tools
 brew install --cask eloston-chromium #chrome without google service
 #https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 #https://greasyfork.org/en/scripts/19993-ru-adlist-js-fixes
-#brew install --cask firefox
-#brew install --cask firefox-developer-edition
+brew install --cask firefox
+brew tap homebrew/cask-versions
+brew install --cask firefox-developer-edition
 brew install --cask telegram
 brew install --cask whatsapp
 brew install --cask WordService
