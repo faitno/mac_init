@@ -192,7 +192,8 @@ https://s3.amazonaws.com/turbo-boost-switcher/Turbo+Boost+Switcher_2.8.0.zip
 https://github.com/rugarciap/Turbo-Boost-Switcher/issues/4#issuecomment-398014403
 #driver for favorite audio-card
 https://github.com/Wouter1/EMU-driver/releases #Creative EMU 0202 follow instuctions for version MACos https://github.com/Wouter1/EMU-driver/blob/master/Install.md
-https://www.readpixel.com/downloads/files/WakeOnLan1.0.zip
+#https://www.readpixel.com/downloads/files/WakeOnLan1.0.zip
+http://web.archive.org/web/20210205171405if_/http://www.readpixel.com/downloads/files/WakeOnLan1.0.zip
 
 #web-server
 brew install nginx
