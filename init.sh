@@ -87,7 +87,8 @@ brew install --cask omnidisksweeper #show large filess, easy clear space 2
 brew install --cask hwsensors
 #brew install --cask magicprefs #magic mouse
 #brew install --cask licecap #screen2gif recorder -< in new catalina mac os may be not need
-brew install --cask the-unarchiver
+#brew install --cask the-unarchiver
+brew install --cask keka
 #brew install --cask google-chrome
 brew install --cask tor-browser
 brew install --cask monitorcontrol
