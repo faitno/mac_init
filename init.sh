@@ -231,6 +231,12 @@ sudo brew services restart php@7.2
 #brew install percona-server
 brew install mysql@5.7
 brew link mysql@5.7 --force
+#/usr/local/etc/my.cnf
+[mysqld]
+# Only allow connections from localhost
+bind-address = 127.0.0.1
+validate_password_special_char_count=0 ## <----
+
 brew services start mysql@5.7
 mysql_secure_installation
 #mysql -u root -p
