@@ -248,6 +248,10 @@ https://github.com/downloads/specialunderwear/Hosts.prefpane/Hosts-1.3.pkg
 https://www.dirk-froehling.de/resources/Software/Hosts-App-1.4.5.zip
 https://www.dirk-froehling.de/downloads/downloads.html
 
+#ansible moterey
+pip3 install ansible
+pip3 install 'jinja2>=3.0.0,<3.0.2'
+
 #ansible
 brew install python
 sudo mount -uw /
