@@ -297,6 +297,7 @@ brew install node
 brew install --cask teamviewer
 brew install --cask zoomus
 brew install --cask maccy
+brew install --cask shifty #night shift switcher control
 #brew install --cask dash #for read docs for Zurb Foundation 6.2.4
 #brew install --cask virtualbox;
 
