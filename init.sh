@@ -121,7 +121,7 @@ brew install --cask soda-player
 #https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
 #brew install --cask karabiner-elements
 brew install --cask skype
-brew install --cask sequel-pro
+brew install --cask sequel-pro #mysql client macos
 brew install --cask hex-fiend
 brew install --cask cyberduck
 #brew install --cask cyberduck@6.6.1 - don't respond @buy me!
