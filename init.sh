@@ -327,3 +327,8 @@ brew install --cask colorpicker-antetype
 http://download.panic.com/picker/
 http://wafflesoftware.net/hexpicker/
 https://superuser.com/questions/372855/an-application-to-easily-pick-a-color-in-mac-os-x-and-get-the-hex-value
+
+#android remote control if screen cracked
+HOMEBREW_NO_AUTO_UPDATE=1 brew install scrcpy
+brew install android-platform-tools
+scrcpy --no-audio --turn-screen-off --lock-video-orientation=0 --display-buffer=10 --video-bit-rate=1M --print-fps --hid-mouse --hid-keyboard
