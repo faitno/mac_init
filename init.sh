@@ -92,7 +92,7 @@ brew install --cask hwsensors
 brew install --cask keka
 #brew install --cask google-chrome
 brew install --cask tor-browser
-brew install --cask monitorcontrol
+brew install --cask monitorcontrol #brightness contrast monitor control
 brew install --cask diffmerge #file difference tools
 #brew install --cask waterfox-classic
 brew install --cask eloston-chromium #chrome without google service
