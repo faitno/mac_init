@@ -3,6 +3,7 @@
 
 #https://apps.apple.com/us/app/bandwidth/id490461369 #mac bandwidth monitor menu bar
 #https://apps.apple.com/app/id1611378436 # always paste match style
+#https://apps.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12 clipboard history paste copy
 
 sudo trimforce enable
 #system settings
