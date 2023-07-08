@@ -229,26 +229,30 @@ echo 'jail    /Users/alex/jail' | sudo tee /etc/synthetic.conf
 #rm /usr/local/lib/php/pecl
 #ln -s /usr/local/Cellar/php@7.1/7.1.27/pecl /usr/local/lib/php/pecl
 php -v
-sudo brew services restart php@7.2
+brew services restart php@7.2
 
 #brew install percona-server
 brew install mysql@5.7
 brew link mysql@5.7 --force
-#/usr/local/etc/my.cnf
-[mysqld]
-# Only allow connections from localhost
-bind-address = 127.0.0.1
-validate_password_special_char_count=0 ## <----
-
-brew services start mysql@5.7
+mysqld --initialize
 mysql_secure_installation
+brew services start mysql@5.7
+
+##/usr/local/etc/my.cnf
+#[mysqld]
+# Only allow connections from localhost
+#bind-address = 127.0.0.1
+#validate_password_special_char_count=0 ## <----
+
+#brew services start mysql@5.7
+#mysql_secure_installation
 #mysql -u root -p
 #ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'youpassword';
 #mysql -uUSER -p -e 'SHOW VARIABLES WHERE Variable_Name LIKE "%dir"' show place databases
 #mysql.server start
 #mysqld stop
 #brew services start percona-server
-mysql_secure_installation
+#mysql_secure_installation
 sudo brew services start nginx
 sudo brew services start php@7.1
 brew link php@7.1 --force
