@@ -235,7 +235,14 @@ brew services restart php@7.2
 brew install mysql@5.7
 brew link mysql@5.7 --force
 mysqld --initialize
-mysql_secure_installation
+mysqld_safe --skip-grant-tables #start mysql with ok for login root without password
+#on another terminal
+mysql -u root -p
+mysql> flush privileges;
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'password_here';
+mysql> flush privileges;
+mysql> quit
+pkill mysqld
 brew services start mysql@5.7
 
 ##/usr/local/etc/my.cnf
