@@ -102,6 +102,7 @@ brew install --cask eloston-chromium #chrome without google service
 brew install --cask firefox
 brew tap homebrew/cask-versions
 brew install --cask firefox-developer-edition
+brew install --cask firefox-nightly
 brew install --cask telegram
 brew install --cask whatsapp
 brew install --cask WordService
