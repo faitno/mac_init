@@ -2,6 +2,7 @@
 #~/Library/Containers/com.coteditor.CotEditor/Data/Library/Preferences/com.coteditor.CotEditor.plist history "find & replace" CotEditor.app
 
 #https://apps.apple.com/us/app/bandwidth/id490461369 #mac bandwidth monitor menu bar
+#https://apps.apple.com/ru/app/telephone/id406825478?l=en-GB&mt=12  #nice sip client
 #https://apps.apple.com/app/id1611378436 # always paste match style
 #https://apps.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12 clipboard history paste copy
 
