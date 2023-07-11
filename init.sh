@@ -315,6 +315,7 @@ brew install --cask zoomus
 brew install --cask maccy
 #brew install --cask bluesnooze #off bluetouch on lid close - on sleep
 brew install sleepwatcher # script .sleep .wakeup https://www.kodiakskorner.com/log/258
+brew install blueutil #bluetouch off/on disconnect/connect from cmd
 brew install --cask shifty #night shift switcher control
 #brew install --cask dash #for read docs for Zurb Foundation 6.2.4
 #brew install --cask virtualbox;
