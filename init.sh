@@ -79,6 +79,18 @@ sudo sh -c 'echo /usr/local/bin/fish >> /etc/shells'
 chsh -s /usr/local/bin/fish
 set -U fish_user_paths /usr/local/bin $fish_user_paths
 
+# node@10 by nvm in fish
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+fisher install jorgebucaran/nvm.fish
+nvm list
+nvm install v10
+nvm use v10
+gulp
+
+#run fulp:
+nvm use v10
+gulp
+
 brew install mc
 brew install htop
 
