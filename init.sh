@@ -128,8 +128,8 @@ brew install --cask coteditor
 #https://gist.github.com/isao/8983629 #BBEdit Codeless Language Module for Nginx Configuration files
 #copy to /Users/USERNAME/Library/Application Support/BBEdit/Language Modules/
 brew install --cask qbittorrent
-#brew install --cask vlc
-brew install --cask soda-player
+brew install --cask vlc
+#brew install --cask soda-player
 #brew install --cask qlvideo #preview on finder for h.265 and over video files
 #brew install --cask vscodium #bbedit instead
 #brew install --cask visual-studio-code
