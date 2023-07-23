@@ -332,6 +332,7 @@ brew install --cask shifty #night shift switcher control
 #brew install --cask dash #for read docs for Zurb Foundation 6.2.4
 #brew install --cask virtualbox;
 brew install --cask rambox #whatsapp telegramm multiaccaunt app
+brew install --cask gyroflow
 
 #repo not in brew
 https://inkscape.org/release/inkscape-1.0/
