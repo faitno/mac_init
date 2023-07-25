@@ -361,6 +361,9 @@ http://download.panic.com/picker/
 http://wafflesoftware.net/hexpicker/
 https://superuser.com/questions/372855/an-application-to-easily-pick-a-color-in-mac-os-x-and-get-the-hex-value
 
+#hilink app ventura
+https://github.com/pwnpsasin/catalina_e3372
+
 #android remote control if screen cracked
 HOMEBREW_NO_AUTO_UPDATE=1 brew install scrcpy
 brew install android-platform-tools
