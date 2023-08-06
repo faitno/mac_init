@@ -110,6 +110,7 @@ brew install --cask monitorcontrol #brightness contrast monitor control
 brew install --cask diffmerge #file difference tools
 #brew install --cask waterfox-classic
 brew install --cask eloston-chromium #chrome without google service
+#https://chrome.google.com/webstore/detail/dump-dom/nipefhlejmpdmpmemlhjcoakmomemkkd #chrome workspace save html dom
 #https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 #https://greasyfork.org/en/scripts/19993-ru-adlist-js-fixes
 brew install --cask firefox
