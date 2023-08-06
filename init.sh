@@ -111,6 +111,9 @@ brew install --cask diffmerge #file difference tools
 #brew install --cask waterfox-classic
 brew install --cask eloston-chromium #chrome without google service
 #https://chrome.google.com/webstore/detail/dump-dom/nipefhlejmpdmpmemlhjcoakmomemkkd #chrome workspace save html dom
+#https://stackoverflow.com/questions/49406359/chrome-devtools-save-changes-made-in-the-elements-tab-to-your-workspace
+#https://stackoverflow.com/questions/28151446/chrome-dev-tools-export-elements-html/66978187#66978187
+
 #https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 #https://greasyfork.org/en/scripts/19993-ru-adlist-js-fixes
 brew install --cask firefox
