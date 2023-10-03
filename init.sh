@@ -31,7 +31,7 @@ ls -la /private/var/vm  #check size of 0 bytes
 # Then Restart Finder or restart your computer
 #https://gist.github.com/vansteen/3199403
 #defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
-brew install --cask onyx
+brew install --cask --no-quarantine onyx
 #upnp manager
 https://github.com/kaklakariada/portmapper
 https://adoptopenjdk.net/releases.html?variant=openjdk11&jvmVariant=hotspot
@@ -70,7 +70,7 @@ brew update
 brew upgrade
 
 #https://github.com/jbtule/cdto #open terminal to current folder
-brew install --cask cd-to
+brew install --cask --no-quarantine cd-to
 
 #brew install bash
 #/usr/local/opt/bash/bin/bash
@@ -98,82 +98,82 @@ brew install mc
 brew install htop
 
 brew tap caskroom/cask
-brew install --cask aldente #80% charge battery for long it life
-brew install --cask find-any-file
-brew install --cask disk-inventory-x #show large filess, easy clear space
-brew install --cask omnidisksweeper #show large filess, easy clear space 2
-brew install --cask hwsensors
-#brew install --cask magicprefs #magic mouse
-#brew install --cask licecap #screen2gif recorder -< in new catalina mac os may be not need
-#brew install --cask the-unarchiver
-brew install --cask keka
-#brew install --cask google-chrome
-brew install --cask tor-browser
-brew install --cask monitorcontrol #brightness contrast monitor control
-brew install --cask diffmerge #file difference tools
-#brew install --cask waterfox-classic
-brew install --cask eloston-chromium #chrome without google service
+brew install --cask --no-quarantine aldente #80% charge battery for long it life
+brew install --cask --no-quarantine find-any-file
+brew install --cask --no-quarantine disk-inventory-x #show large filess, easy clear space
+brew install --cask --no-quarantine omnidisksweeper #show large filess, easy clear space 2
+brew install --cask --no-quarantine hwsensors
+#brew install --cask --no-quarantine magicprefs #magic mouse
+#brew install --cask --no-quarantine licecap #screen2gif recorder -< in new catalina mac os may be not need
+#brew install --cask --no-quarantine the-unarchiver
+brew install --cask --no-quarantine keka
+#brew install --cask --no-quarantine google-chrome
+brew install --cask --no-quarantine tor-browser
+brew install --cask --no-quarantine monitorcontrol #brightness contrast monitor control
+brew install --cask --no-quarantine diffmerge #file difference tools
+#brew install --cask --no-quarantine waterfox-classic
+brew install --cask --no-quarantine eloston-chromium #chrome without google service
 #https://chrome.google.com/webstore/detail/dump-dom/nipefhlejmpdmpmemlhjcoakmomemkkd #chrome workspace save html dom
 #https://stackoverflow.com/questions/49406359/chrome-devtools-save-changes-made-in-the-elements-tab-to-your-workspace
 #https://stackoverflow.com/questions/28151446/chrome-dev-tools-export-elements-html/66978187#66978187
 
 #https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 #https://greasyfork.org/en/scripts/19993-ru-adlist-js-fixes
-brew install --cask firefox
+brew install --cask --no-quarantine firefox
 brew tap homebrew/cask-versions
-brew install --cask firefox-developer-edition
-brew install --cask firefox-nightly
-brew install --cask telegram
-brew install --cask whatsapp
-brew install --cask WordService
-brew install --cask background-music #volume control by app and record audio by quick time from source
-brew install --cask libreoffice #for read large >2mb xls files
-#brew install --cask bbedit      #for large files edit
-brew install --cask bbedit
-brew install --cask coteditor
-#brew install --cask bbedit
+brew install --cask --no-quarantine firefox-developer-edition
+brew install --cask --no-quarantine firefox-nightly
+brew install --cask --no-quarantine telegram
+brew install --cask --no-quarantine whatsapp
+brew install --cask --no-quarantine WordService
+brew install --cask --no-quarantine background-music #volume control by app and record audio by quick time from source
+brew install --cask --no-quarantine libreoffice #for read large >2mb xls files
+#brew install --cask --no-quarantine bbedit      #for large files edit
+brew install --cask --no-quarantine bbedit
+brew install --cask --no-quarantine coteditor
+#brew install --cask --no-quarantine bbedit
 #https://gist.github.com/isao/8983629 #BBEdit Codeless Language Module for Nginx Configuration files
 #copy to /Users/USERNAME/Library/Application Support/BBEdit/Language Modules/
-brew install --cask qbittorrent
-brew install --cask vlc
-#brew install --cask soda-player
-#brew install --cask qlvideo #preview on finder for h.265 and over video files
-#brew install --cask vscodium #bbedit instead
-#brew install --cask visual-studio-code
+brew install --cask --no-quarantine qbittorrent
+brew install --cask --no-quarantine vlc
+#brew install --cask --no-quarantine soda-player
+#brew install --cask --no-quarantine qlvideo #preview on finder for h.265 and over video files
+#brew install --cask --no-quarantine vscodium #bbedit instead
+#brew install --cask --no-quarantine visual-studio-code
 #https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
-#brew install --cask karabiner-elements
-brew install --cask skype
-#brew install --cask sequel-pro #mysql client macos
-brew install --cask sequel-ace #mysql client macos
-brew install --cask hex-fiend
-brew install --cask cyberduck
-#brew install --cask cyberduck@6.6.1 - don't respond @buy me!
-brew install --cask gimp
-brew install --cask handbrake #video converter
-brew install --cask fontforge #fonts editor
-#brew install --cask file-juicer #Extract images from PDF, PowerPoint, Word, Excel and other Files
+#brew install --cask --no-quarantine karabiner-elements
+brew install --cask --no-quarantine skype
+#brew install --cask --no-quarantine sequel-pro #mysql client macos
+brew install --cask --no-quarantine sequel-ace #mysql client macos
+brew install --cask --no-quarantine hex-fiend
+brew install --cask --no-quarantine cyberduck
+#brew install --cask --no-quarantine cyberduck@6.6.1 - don't respond @buy me!
+brew install --cask --no-quarantine gimp
+brew install --cask --no-quarantine handbrake #video converter
+brew install --cask --no-quarantine fontforge #fonts editor
+#brew install --cask --no-quarantine file-juicer #Extract images from PDF, PowerPoint, Word, Excel and other Files
 #https://www.macports.org/install.php
 # sudo port install inkscape
-# brew install --cask xquartz #need enter sudo pass!
-# brew install --cask inkscape
-brew install --cask calibre
-brew install --cask fbreader
-brew install --cask iterm2
-brew install --cask thunderbird
+# brew install --cask --no-quarantine xquartz #need enter sudo pass!
+# brew install --cask --no-quarantine inkscape
+brew install --cask --no-quarantine calibre
+brew install --cask --no-quarantine fbreader
+brew install --cask --no-quarantine iterm2
+brew install --cask --no-quarantine thunderbird
 #https://addons.thunderbird.net/en-US/thunderbird/addon/thunderhtmledit/
-brew install --cask seamonkey --language=en-US
-brew install --cask plistedit-pro
-#brew install --cask apppolice
-brew install --cask amorphousdiskmark #ssd perfomance check
-brew install --cask coconutbattery
-brew install --cask adium
-brew install --cask controlplane
-brew install --cask openmtp #android file transfer
+brew install --cask --no-quarantine seamonkey --language=en-US
+brew install --cask --no-quarantine plistedit-pro
+#brew install --cask --no-quarantine apppolice
+brew install --cask --no-quarantine amorphousdiskmark #ssd perfomance check
+brew install --cask --no-quarantine coconutbattery
+brew install --cask --no-quarantine adium
+brew install --cask --no-quarantine controlplane
+brew install --cask --no-quarantine openmtp #android file transfer
 #https://www.fosshub.com/Audacity.html/audacity-macos-2.3.1.dmg
-###!!!!brew install --cask clean-me - break system!
+###!!!!brew install --cask --no-quarantine clean-me - break system!
 #brew install wine  $El capitan
 brew tap gcenx/wine
-brew install --cask --no-quarantine wine-crossover
+brew install --cask --no-quarantine --no-quarantine wine-crossover
 brew install wget
 brew install telnet
 brew install hudochenkov/sshpass/sshpass
@@ -185,8 +185,8 @@ brew install mosh #for connect over LTE with change IP without reconnect
 brew install proxychains-ng -s #Where the -s tells brew to compile from source.
 #proxychains4 node app.js --name=xParserDaemon
 #/usr/local/etc/proxychains.conf
-brew install --cask motrix #perfect download manager
-brew install --cask spotify
+brew install --cask --no-quarantine motrix #perfect download manager
+brew install --cask --no-quarantine spotify
 
 #sudo nano /etc/ssh/ssh_config
 #Host *
@@ -209,7 +209,7 @@ brew install mas
 mas lucky pages
 mas lucky numbers
 mas install easyres #set custom hdpi resolution
-###brew install --cask avibrazil-rdm #Utility to set a Retina display to custom resolutions
+###brew install --cask --no-quarantine avibrazil-rdm #Utility to set a Retina display to custom resolutions
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)" #add retina resolution hidpi to any monitor
 https://github.com/syscl/Enable-HiDPI-OSX #add custom hidpi resolution
 https://github.com/Eun/DisableMonitor #disable monitor by click
@@ -330,25 +330,25 @@ brew bundle --force cleanup
 brew install node
 
 #repo that need root pass
-#brew install --cask xquartz
-brew install --cask teamviewer
-brew install --cask zoomus
-brew install --cask maccy
-#brew install --cask bluesnooze #off bluetouch on lid close - on sleep
+#brew install --cask --no-quarantine xquartz
+brew install --cask --no-quarantine teamviewer
+brew install --cask --no-quarantine zoomus
+brew install --cask --no-quarantine maccy
+#brew install --cask --no-quarantine bluesnooze #off bluetouch on lid close - on sleep
 brew install sleepwatcher # script .sleep .wakeup https://www.kodiakskorner.com/log/258
 brew install blueutil #bluetouch off/on disconnect/connect from cmd
-brew install --cask shifty #night shift switcher control
-#brew install --cask dash #for read docs for Zurb Foundation 6.2.4
-#brew install --cask virtualbox;
-brew install --cask rambox #whatsapp telegramm multiaccaunt app
-brew install --cask gyroflow #gopro stabilizer
+brew install --cask --no-quarantine shifty #night shift switcher control
+#brew install --cask --no-quarantine dash #for read docs for Zurb Foundation 6.2.4
+#brew install --cask --no-quarantine virtualbox;
+brew install --cask --no-quarantine rambox #whatsapp telegramm multiaccaunt app
+brew install --cask --no-quarantine gyroflow #gopro stabilizer
 brew install --cask --no-quarantine sigil #epub mac editor
 brew install --cask --no-quarantine radiola #online radio player
 
 #repo not in brew
 https://inkscape.org/release/inkscape-1.0/
 https://github.com/stefansl/image-shrinker/releases #optimize images jpg svg gif
-#brew install --cask adobe-air
+#brew install --cask --no-quarantine adobe-air
 #http://toki-woki.net/p/Shrink-O-Matic/ #rotate image by EXIF info
 brew install exiftran
 find . -type f -name "*.jpg" -exec exiftran -ai "{}" \;
@@ -364,8 +364,8 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.mediaanalysisd.plist
 #https://github.com/thenickdude/wacom-driver-fix/releases
 
 #Color picker
-#brew install --cask colorpicker-hex
-brew install --cask colorpicker-antetype
+#brew install --cask --no-quarantine colorpicker-hex
+brew install --cask --no-quarantine colorpicker-antetype
 http://download.panic.com/picker/
 http://wafflesoftware.net/hexpicker/
 https://superuser.com/questions/372855/an-application-to-easily-pick-a-color-in-mac-os-x-and-get-the-hex-value
