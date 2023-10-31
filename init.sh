@@ -157,7 +157,7 @@ brew install --cask --no-quarantine fontforge #fonts editor
 # brew install --cask --no-quarantine xquartz #need enter sudo pass!
 # brew install --cask --no-quarantine inkscape
 brew install --cask --no-quarantine calibre
-brew install --cask --no-quarantine fbreader
+brew install --cask --no-quarantine fbreader #fb2 reader
 brew install --cask --no-quarantine iterm2
 brew install --cask --no-quarantine thunderbird
 #https://addons.thunderbird.net/en-US/thunderbird/addon/thunderhtmledit/
