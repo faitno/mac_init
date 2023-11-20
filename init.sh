@@ -36,6 +36,7 @@ brew install --cask --no-quarantine onyx
 https://github.com/kaklakariada/portmapper
 brew install openjdk@11
 brew link openjdk@11
+java -jar portmapper.jar
 #https://adoptopenjdk.net/releases.html?variant=openjdk11&jvmVariant=hotspot
 #set TTL from 64 to 65 for mobile hotspot
 sudo sysctl -w net.inet.ip.ttl=65
