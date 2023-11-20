@@ -34,7 +34,9 @@ ls -la /private/var/vm  #check size of 0 bytes
 brew install --cask --no-quarantine onyx
 #upnp manager
 https://github.com/kaklakariada/portmapper
-https://adoptopenjdk.net/releases.html?variant=openjdk11&jvmVariant=hotspot
+brew install openjdk@11
+brew link openjdk@11
+#https://adoptopenjdk.net/releases.html?variant=openjdk11&jvmVariant=hotspot
 #set TTL from 64 to 65 for mobile hotspot
 sudo sysctl -w net.inet.ip.ttl=65
 #for after restart TTL work too:
