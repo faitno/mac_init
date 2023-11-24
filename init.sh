@@ -128,6 +128,7 @@ brew install --cask --no-quarantine firefox-developer-edition
 brew install --cask --no-quarantine firefox-nightly
 brew install --cask --no-quarantine telegram
 brew install --cask --no-quarantine whatsapp
+brew install --cask --no-quarantine viber
 brew install --cask --no-quarantine WordService
 brew install --cask --no-quarantine background-music #volume control by app and record audio by quick time from source
 brew install --cask --no-quarantine libreoffice #for read large >2mb xls files
