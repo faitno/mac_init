@@ -13,7 +13,11 @@
 sudo opensnoop -n mdworker
 #add spotlight disable indexing
 ~/Library/
-/System/Library/
+~/System/Library/
+~/Downloads/
+~/work/node_modules/
+~/Parallels/
+~/Pictures/
 
 sudo trimforce enable
 #system settings
