@@ -12,8 +12,9 @@
 #spotlight show what files indexing now
 sudo opensnoop -n mdworker
 #add spotlight disable indexing
+/Library/
+/System/Library/
 ~/Library/
-~/System/Library/
 ~/Downloads/
 ~/work/node_modules/
 ~/Parallels/
