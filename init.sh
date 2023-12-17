@@ -9,6 +9,8 @@
 #https://apps.apple.com/app/id1611378436 # always paste match style
 #https://apps.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12 clipboard history paste copy
 
+#spotlight off (when replace text in many files)
+sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
 #spotlight show what files indexing now
 sudo opensnoop -n mdworker
 #add spotlight disable indexing
