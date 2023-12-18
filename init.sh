@@ -11,6 +11,12 @@
 
 #spotlight off (when replace text in many files)
 sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
+#or
+sudo mdutil -a -i off
+#spotlight on
+sudo launchctl load -wF /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
+sudo mdutil -a -i on
+
 #spotlight show what files indexing now
 sudo opensnoop -n mdworker
 #add spotlight disable indexing
