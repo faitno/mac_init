@@ -401,3 +401,7 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install scrcpy
 brew install android-platform-tools
 scrcpy --no-audio --turn-screen-off --lock-video-orientation=0 --display-buffer=10 --video-bit-rate=1M --print-fps --hid-mouse --hid-keyboard
 scrcpy --no-audio --turn-screen-off --lock-video-orientation=0 --display-buffer=1 --hid-mouse --hid-keyboard #лучше вариант
+
+
+#appletv
+https://github.com/bsharper/atv-desktop-remote #remote control appletv (pause/play)
