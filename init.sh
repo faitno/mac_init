@@ -179,7 +179,7 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine fontforge #fonts e
 # sudo port install inkscape
 # HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine xquartz #need enter sudo pass!
 # HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine inkscape
-HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine calibre
+HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine calibre #kindle epub fb3 uploader/converter
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine fbreader #fb2 reader
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine iterm2
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine thunderbird
