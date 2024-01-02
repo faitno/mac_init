@@ -118,6 +118,8 @@ gulp
 
 brew install mc
 brew install htop
+brew install stress-ng # stress test cpu : 
+#stress-ng --matrix 0
 
 brew tap caskroom/cask
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine aldente #80% charge battery for long it life
