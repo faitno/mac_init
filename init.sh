@@ -4,10 +4,6 @@
 #This command stopped mediaanalysisd.
 #launchctl unload -w /System/Library/LaunchAgents/com.apple.photoanalysisd.plist && launchctl unload -w /System/Library/LaunchAgents/com.apple.mediaanalysisd.plist
 
-#https://apps.apple.com/us/app/bandwidth/id490461369 #mac bandwidth monitor menu bar
-#https://apps.apple.com/ru/app/telephone/id406825478?l=en-GB&mt=12  #nice sip client
-#https://apps.apple.com/app/id1611378436 # always paste match style
-#https://apps.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12 clipboard history paste copy
 
 #spotlight off (when replace text in many files)
 sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
@@ -145,6 +141,7 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine eloston-chromium #
 #https://greasyfork.org/en/scripts/19993-ru-adlist-js-fixes
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox
 brew tap homebrew/cask-versions
+HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine clipy #clipboard history paste copy
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox-developer-edition
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox-nightly
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine telegram
@@ -235,6 +232,12 @@ mas lucky pages
 mas lucky numbers
 mas lucky wireguard
 mas install easyres #set custom hdpi resolution
+
+#https://apps.apple.com/us/app/bandwidth/id490461369 #mac bandwidth monitor menu bar
+#https://apps.apple.com/ru/app/telephone/id406825478?l=en-GB&mt=12  #nice sip client
+#https://apps.apple.com/app/id1611378436 # always paste match style
+#https://apps.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12 clipboard history paste copy
+
 ###HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine avibrazil-rdm #Utility to set a Retina display to custom resolutions
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)" #add retina resolution hidpi to any monitor
 https://github.com/syscl/Enable-HiDPI-OSX #add custom hidpi resolution
