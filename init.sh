@@ -191,6 +191,7 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine coconutbattery
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine adium
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine controlplane
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine openmtp #android file transfer
+HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine librecad #autocad free alternative
 #https://www.fosshub.com/Audacity.html/audacity-macos-2.3.1.dmg
 ###!!!!HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine clean-me - break system!
 #brew install wine  $El capitan
