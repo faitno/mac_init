@@ -243,7 +243,8 @@ mas install easyres #set custom hdpi resolution
 ###HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine avibrazil-rdm #Utility to set a Retina display to custom resolutions
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)" #add retina resolution hidpi to any monitor
 https://github.com/syscl/Enable-HiDPI-OSX #add custom hidpi resolution
-https://github.com/Eun/DisableMonitor #disable monitor by click
+###https://github.com/Eun/DisableMonitor #disable monitor by click
+https://github.com/epalzeolithe/DisableMonitor-3.0 #disable monitor by click
 
 https://itunes.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12
 #disable turbo-boost for longest battery work and low noise fan
