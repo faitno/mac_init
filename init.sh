@@ -376,6 +376,7 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine rambox #whatsapp t
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine gyroflow #gopro stabilizer
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine sigil #epub mac editor
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine radiola #online radio player
+HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine bluestacks #android emulator
 
 #repo not in brew
 https://inkscape.org/release/inkscape-1.0/
