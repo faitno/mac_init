@@ -350,7 +350,10 @@ python3 -m pip install passlib
 npm install --global gulp-cli
 #npm install --global coffee-script
 brew install bower
+#before start bower use command: (if have error dyld[4482]: Library not loaded: /usr/local/opt/icu4c/lib/libicuuc.73.dylib)
+nvm use v10
 #bower install foundation-sites-6.6.3=foundation-sites#6.6.3  ----install version of package to specific folder
+#bower install https://github.com/flatpickr/flatpickr.git --- install driectly from github repo
 #Yarn and Parcel need
 npm install ttf2woff2 -g #ttf2woff2 converter: cat FuturaDemiC.ttf | ttf2woff2 >> FuturaDemiC.woff2
 
