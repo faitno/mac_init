@@ -241,6 +241,7 @@ mas install easyres #set custom hdpi resolution
 #https://apps.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12 clipboard history paste copy
 
 ###HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine avibrazil-rdm #Utility to set a Retina display to custom resolutions
+https://github.com/usr-sse2/RDM
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)" #add retina resolution hidpi to any monitor
 https://github.com/syscl/Enable-HiDPI-OSX #add custom hidpi resolution
 ###https://github.com/Eun/DisableMonitor #disable monitor by click
