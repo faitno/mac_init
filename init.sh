@@ -145,7 +145,7 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine clipy #clipboard h
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox-developer-edition
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox@nightly
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine telegram
-HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine whatsapp
+#HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine whatsapp #not work - need use: mas lucky
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine viber
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine WordService
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine background-music #volume control by app and record audio by quick time from source
@@ -236,6 +236,7 @@ mas lucky wireguard
 mas install easyres #set custom hdpi resolution
 mas lucky telephone #https://apps.apple.com/ru/app/telephone/id406825478?l=en-GB&mt=12  #nice sip client
 mas lucky "Microsoft Remote Desktop"
+mas lucky "whatsapp messenger"
 
 #https://apps.apple.com/us/app/bandwidth/id490461369 #mac bandwidth monitor menu bar
 #https://apps.apple.com/app/id1611378436 # always paste match style
