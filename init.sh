@@ -143,7 +143,7 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox
 brew tap homebrew/cask-versions
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine clipy #clipboard history paste copy
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox-developer-edition
-HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox-nightly
+HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox@nightly
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine telegram
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine whatsapp
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine viber
