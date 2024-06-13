@@ -235,6 +235,7 @@ mas lucky numbers
 mas lucky wireguard
 mas install easyres #set custom hdpi resolution
 mas lucky telephone #https://apps.apple.com/ru/app/telephone/id406825478?l=en-GB&mt=12  #nice sip client
+mas lucky "Microsoft Remote Desktop"
 
 #https://apps.apple.com/us/app/bandwidth/id490461369 #mac bandwidth monitor menu bar
 #https://apps.apple.com/app/id1611378436 # always paste match style
