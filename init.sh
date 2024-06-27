@@ -23,6 +23,10 @@ sudo opensnoop -n mdworker
 ~/work/node_modules/
 ~/Parallels/
 ~/Pictures/
+#in one line fish:
+for dir in ~/Library/ ~/work/node_modules/ ~/Pictures/ ~/Parallels/ ~/Downloads/; mkdir -p "$dir"; touch "$dir/.metadata_never_index"; end
+#bash: 
+for dir in {~/Library/,~/work/node_modules/,~/Pictures/,~/Parallels/,~/Downloads/}; do mkdir -p "$dir" && touch "$dir/.metadata_never_index"; done
 
 sudo trimforce enable
 #system settings
