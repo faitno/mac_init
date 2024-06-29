@@ -323,8 +323,8 @@ brew services start mysql@5.7
 #mysqld stop
 #brew services start percona-server
 #mysql_secure_installation
-sudo brew services start nginx
-sudo brew services start php@7.1
+brew services start nginx
+brew services start php@7.1
 brew link php@7.1 --force
 brew services list
 https://github.com/downloads/specialunderwear/Hosts.prefpane/Hosts-1.3.pkg
