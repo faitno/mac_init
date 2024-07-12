@@ -219,7 +219,7 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine spotify
 #sudo nano /etc/ssh/ssh_config
 #Host *
 #    ServerAliveInterval 120
-#for 4g ssh norm connection
+#for 4g lte ssh norm connection
 
 brew cleanup 
 echo 'export VISUAL=nano; export EDITOR="$VISUAL"' >> ~/.bashrc
