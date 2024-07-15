@@ -1,6 +1,9 @@
 #~/Library/Preferences/com.apple.Terminal.plist history terminal.app by menu click "new command"
 #~/Library/Containers/com.coteditor.CotEditor/Data/Library/Preferences/com.coteditor.CotEditor.plist history "find & replace" CotEditor.app
 
+#create .plist that run script after reboot with sudo
+#https://github.com/rugarciap/Turbo-Boost-Switcher/issues/4#issuecomment-398014403
+
 #This command stopped mediaanalysisd.
 #launchctl unload -w /System/Library/LaunchAgents/com.apple.photoanalysisd.plist && launchctl unload -w /System/Library/LaunchAgents/com.apple.mediaanalysisd.plist
 
