@@ -116,6 +116,7 @@ nvm use v10
 gulp
 
 #run fulp:
+nvm use v10; gulp
 nvm use v10
 gulp
 
