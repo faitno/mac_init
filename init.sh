@@ -337,7 +337,9 @@ https://www.dirk-froehling.de/downloads/downloads.html
 #ansible moterey
 #pip3 install ansible
 pip3 install ansible --break-system-packages
+pip3 install pymysql --break-system-packages
 pip3 install 'jinja2>=3.0.0,<3.0.2'
+#pip3 freeze #see installed packages python3
 
 #ansible
 brew install python
