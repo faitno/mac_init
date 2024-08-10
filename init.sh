@@ -153,6 +153,7 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine clipy #clipboard h
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox-developer-edition
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox@nightly
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine telegram
+open -n -a /Applications/Telegram.app #open new windows of telegramm
 #HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine whatsapp #not work - need use: mas lucky
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine viber
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine WordService
