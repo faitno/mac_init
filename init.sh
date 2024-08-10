@@ -154,6 +154,8 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox-developer-
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox@nightly
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine telegram
 open -n -a /Applications/Telegram.app #open new windows of telegramm
+https://superuser.com/a/1850276 # - open 2 whatsapp accaunt
+HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine rambox #whatsapp telegramm multiaccaunt app
 #HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine whatsapp #not work - need use: mas lucky
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine viber
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine WordService
@@ -390,7 +392,6 @@ brew install blueutil #bluetouch off/on disconnect/connect from cmd
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine shifty #night shift switcher control
 #HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine dash #for read docs for Zurb Foundation 6.2.4
 #HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine virtualbox;
-HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine rambox #whatsapp telegramm multiaccaunt app
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine gyroflow #gopro stabilizer
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine sigil #epub mac editor
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine radiola #online radio player
