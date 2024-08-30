@@ -138,6 +138,7 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine keka
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --force --cask --no-quarantine google-chrome
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine tor-browser
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine monitorcontrol #brightness contrast monitor control
+HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine lumen #brightness auto control
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine diffmerge #file difference tools
 #HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine waterfox-classic
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine eloston-chromium #chrome without google service
