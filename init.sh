@@ -225,6 +225,7 @@ brew install proxychains-ng -s #Where the -s tells brew to compile from source.
 #/usr/local/etc/proxychains.conf
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine motrix #perfect download manager
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine spotify
+HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine docker
 
 #sudo nano /etc/ssh/ssh_config
 #Host *
