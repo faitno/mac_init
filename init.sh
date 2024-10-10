@@ -438,3 +438,10 @@ scrcpy --no-audio --turn-screen-off --lock-video-orientation=0 --display-buffer=
 
 #appletv
 https://github.com/bsharper/atv-desktop-remote #remote control appletv (pause/play)
+
+#dpi work norm socket 5 1080
+git clone https://github.com/hufrea/byedpi.git
+cd byedpi
+run make
+run ./ciadpi --oob 2
+setup socks 5 proxy firefox
