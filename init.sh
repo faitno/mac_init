@@ -400,6 +400,8 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine gyroflow #gopro st
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine sigil #epub mac editor
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine radiola #online radio player
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine bluestacks #android emulator
+https://github.com/abbasnaqdi/nekoray-macos/releases #VLESS VPN
+#~/Library/Preferences/nekoray/config/groups/nekoray.json nekoray config file
 
 #repo not in brew
 https://inkscape.org/release/inkscape-1.0/
