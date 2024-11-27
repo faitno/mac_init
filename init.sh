@@ -195,7 +195,7 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine fbreader #fb2 read
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine iterm2
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine thunderbird
 #https://addons.thunderbird.net/en-US/thunderbird/addon/thunderhtmledit/
-HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine seamonkey --language=en-US
+HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine seamonkey --language=en-US #wysiwyg html editor macos
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine plistedit-pro
 #HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine apppolice
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine amorphousdiskmark #ssd perfomance check
