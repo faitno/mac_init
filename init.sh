@@ -393,7 +393,7 @@ brew install node
 #HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine xquartz
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine teamviewer
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine zoomus
-HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine maccy
+HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine maccy #clipboard history paste copy
 #HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine bluesnooze #off bluetouch on lid close - on sleep
 brew install sleepwatcher # script .sleep .wakeup https://www.kodiakskorner.com/log/258
 brew install blueutil #bluetouch off/on disconnect/connect from cmd
