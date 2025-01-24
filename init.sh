@@ -451,3 +451,7 @@ cd byedpi
 run make
 run ./ciadpi --oob 2
 setup socks 5 proxy firefox
+
+#previos version of imove
+https://support.apple.com/kb/index?page=search&src=support_docs_serp&locale=en_US&doctype=DOCUMENTATIONS&q=iMovie
+https://support.apple.com/en-us/docs
