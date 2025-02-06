@@ -179,6 +179,7 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine vlc
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine skype
 #HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine sequel-pro #mysql client macos
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine sequel-ace #mysql client macos
+HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine dbeaver-community #mysql client macos new!! not checked
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine hex-fiend
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine cyberduck
 #HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine cyberduck@6.6.1 - don't respond @buy me!
