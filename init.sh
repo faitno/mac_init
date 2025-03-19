@@ -282,6 +282,7 @@ wakeonlan 5C:9A:D8:63:72:CD
 
 #web-server
 brew install nginx
+sudo chown -vhR $USER:admin /usr/local/var/run/nginx && nginx -s reopen ## [crit] 648#0: *62 open() "/usr/local/var/run/nginx/client_body_temp/0000000003" failed (13: Permission denied),
 brew tap shivammathur/php
 #brew install php@7.2
 #brew install php@7.4
