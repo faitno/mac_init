@@ -161,6 +161,7 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine rambox #whatsapp t
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine viber
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine WordService
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine background-music #volume control by app and record audio by quick time from source
+HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine proxy-audio-device #volume control on all usb audio card
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine libreoffice #for read large >2mb xls files
 #HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine bbedit      #for large files edit
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine bbedit
