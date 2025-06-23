@@ -126,7 +126,8 @@ brew install stress-ng # stress test cpu :
 #stress-ng --matrix 0
 
 brew tap caskroom/cask
-HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine aldente #80% charge battery for long it life
+#HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine aldente #80% charge battery for long it life
+https://github.com/itsjoshpark/charge-limiter/releases #liit battery cahrge - work perfect
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine find-any-file
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine disk-inventory-x #show large filess, easy clear space
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine omnidisksweeper #show large filess, easy clear space 2
