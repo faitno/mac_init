@@ -149,12 +149,14 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine eloston-chromium #
 
 #https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 #https://greasyfork.org/en/scripts/19993-ru-adlist-js-fixes
-HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox
+
 #brew tap homebrew/cask-versions
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine clipy #clipboard history paste copy
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox@developer-edition
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox@nightly
-HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox@esr #Extended Support Release
+#HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox
+HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox@esr #Extended Support Release - за место обычного можно ставить
+HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox@beta
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine telegram
 open -n -a /Applications/Telegram.app #open new windows of telegramm
 https://superuser.com/a/1850276 # - open 2 whatsapp accaunt
