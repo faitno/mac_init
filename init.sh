@@ -156,7 +156,7 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox@developer-
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox@nightly
 #HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox@esr #Extended Support Release - за место обычного можно ставить
-HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox@beta
+#HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine firefox@beta # - тоже за место обычного ставится, хрень
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine telegram
 open -n -a /Applications/Telegram.app #open new windows of telegramm
 https://superuser.com/a/1850276 # - open 2 whatsapp accaunt
