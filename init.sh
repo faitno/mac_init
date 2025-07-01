@@ -291,12 +291,13 @@ sudo chown -vhR $USER:admin /usr/local/var/run/nginx && nginx -s reopen ## [crit
 brew tap shivammathur/php
 #brew install php@7.2
 #brew install php@7.4
-brew install shivammathur/php/php@7.1
-brew install shivammathur/php/php@7.2
-brew install shivammathur/php/php@7.3
-brew install shivammathur/php/php@7.4
-brew tap shivammathur/extensions
-brew install imagick@7.4
+HOMEBREW_NO_AUTO_UPDATE=1 brew install shivammathur/php/php@7.1
+HOMEBREW_NO_AUTO_UPDATE=1 brew install shivammathur/php/php@7.2
+HOMEBREW_NO_AUTO_UPDATE=1 brew install shivammathur/php/php@7.3
+HOMEBREW_NO_AUTO_UPDATE=1 brew install shivammathur/php/php@7.4
+HOMEBREW_NO_AUTO_UPDATE=1 brew install shivammathur/php/php@8.2
+HOMEBREW_NO_AUTO_UPDATE=1 brew tap shivammathur/extensions
+HOMEBREW_NO_AUTO_UPDATE=1 brew install imagick@7.4
 #port install imagemagick  -- work .webp
 #sudo pecl install imagick  -- work .webp
 brew install composer
