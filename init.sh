@@ -128,6 +128,7 @@ brew install stress-ng # stress test cpu :
 brew tap caskroom/cask
 #HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine aldente #80% charge battery for long it life
 
+#https://github.com/vrunkel/F3XSwift/releases/download/v1.0.3/F3XSwift.app.zip gui f3 microsd test
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine find-any-file
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine disk-inventory-x #show large filess, easy clear space
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine omnidisksweeper #show large filess, easy clear space 2
