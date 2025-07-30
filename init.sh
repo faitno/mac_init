@@ -213,12 +213,13 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine openmtp #android f
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine librecad #autocad free alternative
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine switchresx #custom herz on monitor
 HOMEBREW_NO_AUTO_UPDATE=1 brew install spoofdpi #Simple and fast anti-censorship tool written in Go youtube rutracker unblock
+HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine audacity
 
 #LEGO bricks editor
 https://www.leocad.org/download.html # .ldr
 
 #.spoofdpi/bin/spoofdpi -system-proxy=false
-#https://www.fosshub.com/Audacity.html/audacity-macos-2.3.1.dmg
+##https://www.fosshub.com/Audacity.html/audacity-macos-2.3.1.dmg
 ###!!!!HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine clean-me - break system!
 #brew install wine  $El capitan
 brew tap gcenx/wine
