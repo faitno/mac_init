@@ -107,6 +107,19 @@ sudo sh -c 'echo /usr/local/bin/fish >> /etc/shells'
 chsh -s /usr/local/bin/fish
 set -U fish_user_paths /usr/local/bin $fish_user_paths
 fisher install jorgebucaran/nvm.fish #plugin for .nvmrc settings in folder for auto use "nvm use 22"
+cat >> ~/.config/fish/config.fish << 'EOF'
+function __nvm_auto_use --on-variable PWD
+    if test -f .nvmrc
+        nvm use > /dev/null 2>&1
+    end
+end
+# Загрузить версию при запуске оболочки
+if test -f .nvmrc
+    nvm use > /dev/null 2>&1
+end
+EOF
+
+
  
 # node@10 by nvm in fish
 curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
