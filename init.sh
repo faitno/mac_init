@@ -106,7 +106,8 @@ brew install fish
 sudo sh -c 'echo /usr/local/bin/fish >> /etc/shells'
 chsh -s /usr/local/bin/fish
 set -U fish_user_paths /usr/local/bin $fish_user_paths
-
+fisher install jorgebucaran/nvm.fish #plugin for .nvmrc settings in folder for auto use "nvm use 22"
+ 
 # node@10 by nvm in fish
 curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
 fisher install jorgebucaran/nvm.fish
