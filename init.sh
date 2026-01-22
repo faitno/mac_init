@@ -432,7 +432,6 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine radiola #online ra
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine bluestacks #android emulator
 https://github.com/abbasnaqdi/nekoray-macos/releases #VLESS VPN
 #~/Library/Preferences/nekoray/config/groups/nekoray.json nekoray config file
-HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask --no-quarantine clash-verge-rev
 
 #repo not in brew
 https://inkscape.org/release/inkscape-1.0/
